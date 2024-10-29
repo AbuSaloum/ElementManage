@@ -97,5 +97,16 @@
         "max_wait_time_seconds": 0,
         "version": "string",
         "screen_id": 4
+    },
+    {
+        "id": 15,
+        "name": "TEST12",
+        "action": "asd",
+        "text": "asd",
+        "dynamic_text_key": "asd",
+        "skip_allowed": true,
+        "max_wait_time_seconds": 0,
+        "version": "string",
+        "screen_id": 4
     }
 ]
