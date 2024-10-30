@@ -1,0 +1,229 @@
+{
+    "sequence": [
+        {
+            "name": "Test Abu saloum 8",
+            "trigger_identifiers": [
+                {
+                    "type": "resource_id",
+                    "value": "com.whatsapp:id/choose_language"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "type": "xpath",
+                    "value": "Recusandae Corporis"
+                }
+            ],
+            "action": "click",
+            "text": "",
+            "dynamic_text_key": null,
+            "skip_allowed": true,
+            "max_wait_time_seconds": null,
+            "version": "rr",
+            "countdown_identifier": []
+        },
+        {
+            "name": "Test Abu saloum 9",
+            "trigger_identifiers": [
+                {
+                    "type": "resource_id",
+                    "value": "com.whatsapp:id/choose_language"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "type": "xpath",
+                    "value": "Recusandae Corporis"
+                }
+            ],
+            "action": "click",
+            "text": "",
+            "dynamic_text_key": null,
+            "skip_allowed": true,
+            "max_wait_time_seconds": null,
+            "version": "rr",
+            "countdown_identifier": []
+        },
+        {
+            "name": "Test Abu saloum 10",
+            "trigger_identifiers": [
+                {
+                    "type": "resource_id",
+                    "value": "com.whatsapp:id/choose_language"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "type": "xpath",
+                    "value": "Recusandae Corporis"
+                }
+            ],
+            "action": "click",
+            "text": "",
+            "dynamic_text_key": null,
+            "skip_allowed": true,
+            "max_wait_time_seconds": null,
+            "version": "rr",
+            "countdown_identifier": []
+        },
+        {
+            "name": "Test Abu saloum 11",
+            "trigger_identifiers": [
+                {
+                    "type": "resource_id",
+                    "value": "com.whatsapp:id/choose_language"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "type": "xpath",
+                    "value": "Recusandae Corporis"
+                }
+            ],
+            "action": "click",
+            "text": "",
+            "dynamic_text_key": null,
+            "skip_allowed": true,
+            "max_wait_time_seconds": null,
+            "version": "rr",
+            "countdown_identifier": []
+        },
+        {
+            "name": "Test Abu saloum 12",
+            "trigger_identifiers": [
+                {
+                    "type": "resource_id",
+                    "value": "com.whatsapp:id/choose_language"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "type": "xpath",
+                    "value": "Recusandae Corporis"
+                }
+            ],
+            "action": "click",
+            "text": "",
+            "dynamic_text_key": null,
+            "skip_allowed": true,
+            "max_wait_time_seconds": null,
+            "version": "rr",
+            "countdown_identifier": []
+        },
+        {
+            "name": "Test Abu saloum 13",
+            "trigger_identifiers": [
+                {
+                    "type": "resource_id",
+                    "value": "com.whatsapp:id/choose_language"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "type": "xpath",
+                    "value": "Recusandae Corporis"
+                }
+            ],
+            "action": "click",
+            "text": "",
+            "dynamic_text_key": null,
+            "skip_allowed": true,
+            "max_wait_time_seconds": null,
+            "version": "rr",
+            "countdown_identifier": []
+        },
+        {
+            "name": "Test Abu saloum 14",
+            "trigger_identifiers": [
+                {
+                    "type": "resource_id",
+                    "value": "com.whatsapp:id/choose_language"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "type": "xpath",
+                    "value": "Recusandae Corporis"
+                }
+            ],
+            "action": "click",
+            "text": "",
+            "dynamic_text_key": null,
+            "skip_allowed": true,
+            "max_wait_time_seconds": null,
+            "version": "rr",
+            "countdown_identifier": []
+        },
+        {
+            "name": "Last Test",
+            "trigger_identifiers": [
+                {
+                    "type": "resource_id",
+                    "value": "com.whatsapp:id/choose_language"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "type": "resource_id",
+                    "value": "com.whatsapp:id/choose_language"
+                }
+            ],
+            "action": "click",
+            "text": "",
+            "dynamic_text_key": null,
+            "skip_allowed": true,
+            "max_wait_time_seconds": null,
+            "version": "rr",
+            "countdown_identifier": []
+        },
+        {
+            "name": "Done2",
+            "trigger_identifiers": [
+                {
+                    "type": "resource_id",
+                    "value": "com.whatsapp:id/choose_language"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "type": "resource_id",
+                    "value": "com.whatsapp:id/choose_language"
+                }
+            ],
+            "action": "click",
+            "text": "",
+            "dynamic_text_key": null,
+            "skip_allowed": true,
+            "max_wait_time_seconds": null,
+            "version": "rr",
+            "countdown_identifier": []
+        },
+        {
+            "name": "Lasaateeaa",
+            "trigger_identifiers": [
+                {
+                    "type": "resource_id",
+                    "value": "com.whatsapp:id/choose_language"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "type": "resource_id",
+                    "value": "com.whatsapp:id/choose_language"
+                }
+            ],
+            "action": "click",
+            "text": "ee",
+            "dynamic_text_key": "rr",
+            "skip_allowed": true,
+            "max_wait_time_seconds": 3,
+            "version": "rr",
+            "countdown_identifier": [
+                {
+                    "type": "xpath",
+                    "value": "Ullamco quis quis ex"
+                }
+            ]
+        }
+    ]
+}
