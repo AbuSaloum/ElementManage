@@ -1,120 +1,5 @@
 [
     {
-        "id": 5,
-        "name": "string",
-        "action": "string",
-        "trigger_identifiers": [
-            {
-                "type": "xpath",
-                "value": "Ullamco quis quis ex"
-            }
-        ],
-        "action_identifiers": [
-            {
-                "type": "xpath",
-                "value": "Ullamco quis quis ex"
-            }
-        ],
-        "text": "string",
-        "dynamic_text_key": "string",
-        "skip_allowed": true,
-        "max_wait_time_seconds": 2,
-        "version": "string",
-        "screen_id": 1
-    },
-    {
-        "id": 6,
-        "name": "Jasper Wilkerson",
-        "action": "check_and_wait",
-        "trigger_identifiers": [
-            {
-                "type": "xpath",
-                "value": "Ullamco quis quis ex"
-            }
-        ],
-        "action_identifiers": [
-            {
-                "type": "xpath",
-                "value": "Ullamco quis quis ex"
-            }
-        ],
-        "text": "Consequuntur dolor l",
-        "dynamic_text_key": "Similique repellendu",
-        "skip_allowed": true,
-        "max_wait_time_seconds": 38,
-        "version": "Quis quisquam atque ",
-        "screen_id": 2
-    },
-    {
-        "id": 7,
-        "name": "Jasper Wilkerson",
-        "action": "check_and_wait",
-        "trigger_identifiers": [
-            {
-                "type": "resource_id",
-                "value": "Vitae sequi qui cons"
-            }
-        ],
-        "action_identifiers": [
-            {
-                "type": "resource_id",
-                "value": "Vitae sequi qui cons"
-            }
-        ],
-        "text": "Consequuntur dolor l",
-        "dynamic_text_key": "Similique repellendu",
-        "skip_allowed": true,
-        "max_wait_time_seconds": 38,
-        "version": "Quis quisquam atque ",
-        "screen_id": 2
-    },
-    {
-        "id": 8,
-        "name": "string22",
-        "action": "string22",
-        "trigger_identifiers": [
-            {
-                "type": "xpath",
-                "value": "Recusandae Corporis"
-            }
-        ],
-        "action_identifiers": [
-            {
-                "type": "xpath",
-                "value": "Recusandae Corporis"
-            }
-        ],
-        "text": "string22",
-        "dynamic_text_key": "string22",
-        "skip_allowed": true,
-        "max_wait_time_seconds": 0,
-        "version": "string",
-        "screen_id": 5
-    },
-    {
-        "id": 9,
-        "name": "string22",
-        "action": "string22",
-        "trigger_identifiers": [
-            {
-                "type": "resource_id",
-                "value": "com.whatsapp:id/choose_language"
-            }
-        ],
-        "action_identifiers": [
-            {
-                "type": "resource_id",
-                "value": "com.whatsapp:id/choose_language"
-            }
-        ],
-        "text": "string22",
-        "dynamic_text_key": "string22",
-        "skip_allowed": true,
-        "max_wait_time_seconds": 0,
-        "version": "string",
-        "screen_id": 4
-    },
-    {
         "id": 11,
         "name": "string22",
         "action": "string22",
@@ -155,101 +40,6 @@
         ],
         "text": "string22",
         "dynamic_text_key": "string22",
-        "skip_allowed": true,
-        "max_wait_time_seconds": 0,
-        "version": "string",
-        "screen_id": 4
-    },
-    {
-        "id": 13,
-        "name": "TTTTT",
-        "action": "string22",
-        "trigger_identifiers": [
-            {
-                "type": "resource_id",
-                "value": "com.whatsapp:id/choose_language"
-            }
-        ],
-        "action_identifiers": [
-            {
-                "type": "resource_id",
-                "value": "com.whatsapp:id/choose_language"
-            }
-        ],
-        "text": "string22",
-        "dynamic_text_key": "string22",
-        "skip_allowed": true,
-        "max_wait_time_seconds": 0,
-        "version": "string",
-        "screen_id": 4
-    },
-    {
-        "id": 14,
-        "name": "TTTTsssT",
-        "action": "string22",
-        "trigger_identifiers": [],
-        "action_identifiers": [],
-        "text": "string22",
-        "dynamic_text_key": "string22",
-        "skip_allowed": true,
-        "max_wait_time_seconds": 0,
-        "version": "string",
-        "screen_id": 4
-    },
-    {
-        "id": 15,
-        "name": "TEST12",
-        "action": "asd",
-        "trigger_identifiers": [],
-        "action_identifiers": [],
-        "text": "asd",
-        "dynamic_text_key": "asd",
-        "skip_allowed": true,
-        "max_wait_time_seconds": 0,
-        "version": "string",
-        "screen_id": 4
-    },
-    {
-        "id": 16,
-        "name": "TEST9999",
-        "action": "asd",
-        "trigger_identifiers": [
-            {
-                "type": "resource_id",
-                "value": "com.whatsapp:id/choose_language"
-            }
-        ],
-        "action_identifiers": [
-            {
-                "type": "resource_id",
-                "value": "com.whatsapp:id/choose_language"
-            }
-        ],
-        "text": "asd",
-        "dynamic_text_key": "asd",
-        "skip_allowed": true,
-        "max_wait_time_seconds": 0,
-        "version": "string",
-        "screen_id": 4
-    },
-    {
-        "id": 17,
-        "name": "TEST911",
-        "action": "asd",
-        "trigger_identifiers": [
-            {
-                "type": "resource_id",
-                "value": "com.whatsapp:id/choose_language"
-            }
-        ],
-        "action_identifiers": [
-            {
-                "type": "resource_id",
-                "value": "com.whatsapp:id/choose_language"
-            }
-        ],
-        "text": "asd",
-        "dynamic_text_key": "asd",
         "skip_allowed": true,
         "max_wait_time_seconds": 0,
         "version": "string",
@@ -706,6 +496,29 @@
             {
                 "type": "xpath",
                 "value": "Recusandae Corporis"
+            }
+        ],
+        "text": null,
+        "dynamic_text_key": null,
+        "skip_allowed": true,
+        "max_wait_time_seconds": null,
+        "version": "rr",
+        "screen_id": 24
+    },
+    {
+        "id": 38,
+        "name": "Last Test",
+        "action": "click",
+        "trigger_identifiers": [
+            {
+                "type": "resource_id",
+                "value": "com.whatsapp:id/choose_language"
+            }
+        ],
+        "action_identifiers": [
+            {
+                "type": "resource_id",
+                "value": "com.whatsapp:id/choose_language"
             }
         ],
         "text": null,
