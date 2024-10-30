@@ -1,7 +1,29 @@
 {
     "sequence": [
         {
-            "name": "Last",
+            "name": "Done3",
+            "trigger_identifiers": [
+                {
+                    "type": "resource_id",
+                    "value": "com.whatsapp:id/choose_language"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "type": "resource_id",
+                    "value": "com.whatsapp:id/choose_language"
+                }
+            ],
+            "action": "click",
+            "text": "",
+            "dynamic_text_key": null,
+            "skip_allowed": true,
+            "max_wait_time_seconds": null,
+            "version": "rr",
+            "countdown_identifier": []
+        },
+        {
+            "name": "Done1",
             "trigger_identifiers": [
                 {
                     "type": "resource_id",
@@ -55,7 +77,7 @@
             ]
         },
         {
-            "name": "Done1",
+            "name": "Last",
             "trigger_identifiers": [
                 {
                     "type": "resource_id",
@@ -82,7 +104,7 @@
             ]
         },
         {
-            "name": "Done3",
+            "name": "Lastaa",
             "trigger_identifiers": [
                 {
                     "type": "resource_id",
@@ -101,7 +123,12 @@
             "skip_allowed": true,
             "max_wait_time_seconds": null,
             "version": "rr",
-            "countdown_identifier": []
+            "countdown_identifier": [
+                {
+                    "type": "xpath",
+                    "value": "Ullamco quis quis ex"
+                }
+            ]
         }
     ]
 }
