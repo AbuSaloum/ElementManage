@@ -1,6 +1,27 @@
 {
     "sequence": [
         {
+            "name": "Done1",
+            "trigger_identifiers": [
+                {
+                    "type": "resource_id",
+                    "value": "com.whatsapp:id/choose_language"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "type": "resource_id",
+                    "value": "com.whatsapp:id/choose_language"
+                }
+            ],
+            "action": "click",
+            "text": "",
+            "dynamic_text_key": null,
+            "skip_allowed": true,
+            "max_wait_time_seconds": null,
+            "version": "rr"
+        },
+        {
             "name": "Done3",
             "trigger_identifiers": [
                 {
