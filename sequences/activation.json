@@ -4,12 +4,14 @@
             "name": "test step 1",
             "trigger_identifiers": [
                 {
+                    "name": "next_button",
                     "type": "resource_id",
                     "value": "com.whatsapp:id/next_button"
                 }
             ],
             "action_identifiers": [
                 {
+                    "name": "language_checkbox",
                     "type": "resource_id",
                     "value": "com.whatsapp:id/language_checkbox"
                 }
@@ -26,12 +28,14 @@
             "name": "test2",
             "trigger_identifiers": [
                 {
+                    "name": "language_checkbox",
                     "type": "resource_id",
                     "value": "com.whatsapp:id/language_checkbox"
                 }
             ],
             "action_identifiers": [
                 {
+                    "name": "next_button",
                     "type": "resource_id",
                     "value": "com.whatsapp:id/next_button"
                 }
@@ -42,6 +46,150 @@
             "skip_allowed": true,
             "max_wait_time_seconds": null,
             "version": "test",
+            "countdown_identifier": []
+        },
+        {
+            "name": "Test AAB",
+            "trigger_identifiers": [
+                {
+                    "name": "language_checkbox",
+                    "type": "resource_id",
+                    "value": "com.whatsapp:id/language_checkbox"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "next_button",
+                    "type": "resource_id",
+                    "value": "com.whatsapp:id/next_button"
+                }
+            ],
+            "action": "click",
+            "text": "",
+            "dynamic_text_key": null,
+            "skip_allowed": true,
+            "max_wait_time_seconds": null,
+            "version": "rr",
+            "countdown_identifier": [
+                {
+                    "name": "alert_title",
+                    "type": "resource_id",
+                    "value": "com.whatsapp:id/alertTitle"
+                }
+            ]
+        },
+        {
+            "name": "Test AACCCC",
+            "trigger_identifiers": [
+                {
+                    "name": "language_checkbox",
+                    "type": "resource_id",
+                    "value": "com.whatsapp:id/language_checkbox"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "next_button",
+                    "type": "resource_id",
+                    "value": "com.whatsapp:id/next_button"
+                }
+            ],
+            "action": "click",
+            "text": "",
+            "dynamic_text_key": null,
+            "skip_allowed": true,
+            "max_wait_time_seconds": null,
+            "version": "rr",
+            "countdown_identifier": [
+                {
+                    "name": "alert_title",
+                    "type": "resource_id",
+                    "value": "com.whatsapp:id/alertTitle"
+                }
+            ]
+        },
+        {
+            "name": "Test S1111111111111111",
+            "trigger_identifiers": [
+                {
+                    "name": "language_checkbox",
+                    "type": "resource_id",
+                    "value": "com.whatsapp:id/language_checkbox"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "next_button",
+                    "type": "resource_id",
+                    "value": "com.whatsapp:id/next_button"
+                }
+            ],
+            "action": "click",
+            "text": "",
+            "dynamic_text_key": null,
+            "skip_allowed": true,
+            "max_wait_time_seconds": null,
+            "version": "rr",
+            "countdown_identifier": [
+                {
+                    "name": "alert_title",
+                    "type": "resource_id",
+                    "value": "com.whatsapp:id/alertTitle"
+                }
+            ]
+        },
+        {
+            "name": "Test 29999999999999999",
+            "trigger_identifiers": [
+                {
+                    "name": "language_checkbox",
+                    "type": "resource_id",
+                    "value": "com.whatsapp:id/language_checkbox"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "next_button",
+                    "type": "resource_id",
+                    "value": "com.whatsapp:id/next_button"
+                }
+            ],
+            "action": "click",
+            "text": "",
+            "dynamic_text_key": null,
+            "skip_allowed": true,
+            "max_wait_time_seconds": null,
+            "version": "rr",
+            "countdown_identifier": [
+                {
+                    "name": "alert_title",
+                    "type": "resource_id",
+                    "value": "com.whatsapp:id/alertTitle"
+                }
+            ]
+        },
+        {
+            "name": "Iris Curry2",
+            "trigger_identifiers": [
+                {
+                    "name": "alert_title",
+                    "type": "resource_id",
+                    "value": "com.whatsapp:id/alertTitle"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "ok_button",
+                    "type": "resource_id",
+                    "value": "android:id/button2"
+                }
+            ],
+            "action": "input",
+            "text": "",
+            "dynamic_text_key": null,
+            "skip_allowed": true,
+            "max_wait_time_seconds": null,
+            "version": "Est tenetur sint fug2",
             "countdown_identifier": []
         }
     ]
