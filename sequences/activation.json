@@ -5,15 +5,13 @@
             "trigger_identifiers": [
                 {
                     "name": "next_button",
-                    "type": "resource_id",
-                    "value": "com.whatsapp:id/next_button"
+                    "resource_id": "com.whatsapp:id/next_button"
                 }
             ],
             "action_identifiers": [
                 {
                     "name": "language_checkbox",
-                    "type": "resource_id",
-                    "value": "com.whatsapp:id/language_checkbox"
+                    "resource_id": "com.whatsapp:id/language_checkbox"
                 }
             ],
             "action": "click",
@@ -29,15 +27,13 @@
             "trigger_identifiers": [
                 {
                     "name": "language_checkbox",
-                    "type": "resource_id",
-                    "value": "com.whatsapp:id/language_checkbox"
+                    "resource_id": "com.whatsapp:id/language_checkbox"
                 }
             ],
             "action_identifiers": [
                 {
                     "name": "next_button",
-                    "type": "resource_id",
-                    "value": "com.whatsapp:id/next_button"
+                    "resource_id": "com.whatsapp:id/next_button"
                 }
             ],
             "action": "click",
@@ -53,15 +49,13 @@
             "trigger_identifiers": [
                 {
                     "name": "language_checkbox",
-                    "type": "resource_id",
-                    "value": "com.whatsapp:id/language_checkbox"
+                    "resource_id": "com.whatsapp:id/language_checkbox"
                 }
             ],
             "action_identifiers": [
                 {
                     "name": "next_button",
-                    "type": "resource_id",
-                    "value": "com.whatsapp:id/next_button"
+                    "resource_id": "com.whatsapp:id/next_button"
                 }
             ],
             "action": "click",
@@ -73,8 +67,7 @@
             "countdown_identifier": [
                 {
                     "name": "alert_title",
-                    "type": "resource_id",
-                    "value": "com.whatsapp:id/alertTitle"
+                    "resource_id": "com.whatsapp:id/alertTitle"
                 }
             ]
         },
@@ -83,15 +76,13 @@
             "trigger_identifiers": [
                 {
                     "name": "language_checkbox",
-                    "type": "resource_id",
-                    "value": "com.whatsapp:id/language_checkbox"
+                    "resource_id": "com.whatsapp:id/language_checkbox"
                 }
             ],
             "action_identifiers": [
                 {
                     "name": "next_button",
-                    "type": "resource_id",
-                    "value": "com.whatsapp:id/next_button"
+                    "resource_id": "com.whatsapp:id/next_button"
                 }
             ],
             "action": "click",
@@ -103,8 +94,7 @@
             "countdown_identifier": [
                 {
                     "name": "alert_title",
-                    "type": "resource_id",
-                    "value": "com.whatsapp:id/alertTitle"
+                    "resource_id": "com.whatsapp:id/alertTitle"
                 }
             ]
         },
@@ -113,15 +103,13 @@
             "trigger_identifiers": [
                 {
                     "name": "language_checkbox",
-                    "type": "resource_id",
-                    "value": "com.whatsapp:id/language_checkbox"
+                    "resource_id": "com.whatsapp:id/language_checkbox"
                 }
             ],
             "action_identifiers": [
                 {
                     "name": "next_button",
-                    "type": "resource_id",
-                    "value": "com.whatsapp:id/next_button"
+                    "resource_id": "com.whatsapp:id/next_button"
                 }
             ],
             "action": "click",
@@ -133,8 +121,7 @@
             "countdown_identifier": [
                 {
                     "name": "alert_title",
-                    "type": "resource_id",
-                    "value": "com.whatsapp:id/alertTitle"
+                    "resource_id": "com.whatsapp:id/alertTitle"
                 }
             ]
         },
@@ -143,15 +130,13 @@
             "trigger_identifiers": [
                 {
                     "name": "language_checkbox",
-                    "type": "resource_id",
-                    "value": "com.whatsapp:id/language_checkbox"
+                    "resource_id": "com.whatsapp:id/language_checkbox"
                 }
             ],
             "action_identifiers": [
                 {
                     "name": "next_button",
-                    "type": "resource_id",
-                    "value": "com.whatsapp:id/next_button"
+                    "resource_id": "com.whatsapp:id/next_button"
                 }
             ],
             "action": "click",
@@ -163,25 +148,22 @@
             "countdown_identifier": [
                 {
                     "name": "alert_title",
-                    "type": "resource_id",
-                    "value": "com.whatsapp:id/alertTitle"
+                    "resource_id": "com.whatsapp:id/alertTitle"
                 }
             ]
         },
         {
-            "name": "Iris Curry2",
+            "name": "Iris Curry244",
             "trigger_identifiers": [
                 {
                     "name": "alert_title",
-                    "type": "resource_id",
-                    "value": "com.whatsapp:id/alertTitle"
+                    "resource_id": "com.whatsapp:id/alertTitle"
                 }
             ],
             "action_identifiers": [
                 {
                     "name": "ok_button",
-                    "type": "resource_id",
-                    "value": "android:id/button2"
+                    "resource_id": "android:id/button2"
                 }
             ],
             "action": "input",
@@ -191,6 +173,33 @@
             "max_wait_time_seconds": null,
             "version": "Est tenetur sint fug2",
             "countdown_identifier": []
+        },
+        {
+            "name": "Test 2211SS",
+            "trigger_identifiers": [
+                {
+                    "name": "language_checkbox",
+                    "resource_id": "com.whatsapp:id/language_checkbox"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "next_button",
+                    "resource_id": "com.whatsapp:id/next_button"
+                }
+            ],
+            "action": "click",
+            "text": "",
+            "dynamic_text_key": null,
+            "skip_allowed": true,
+            "max_wait_time_seconds": null,
+            "version": "rr",
+            "countdown_identifier": [
+                {
+                    "name": "alert_title",
+                    "resource_id": "com.whatsapp:id/alertTitle"
+                }
+            ]
         }
     ]
 }
