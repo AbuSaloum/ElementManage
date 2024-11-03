@@ -1,25 +1,25 @@
 {
     "sequence": [
         {
-            "name": "Iris Curry244",
+            "name": "select_language",
             "trigger_identifiers": [
                 {
-                    "name": "alert_title",
-                    "resource_id": "com.whatsapp:id/alertTitle"
+                    "name": "language_checkbox",
+                    "resource_id": "com.whatsapp:id/language_checkbox"
                 }
             ],
             "action_identifiers": [
                 {
-                    "name": "ok_button",
-                    "resource_id": "android:id/button2"
+                    "name": "language_checkbox",
+                    "resource_id": "com.whatsapp:id/language_checkbox"
                 }
             ],
-            "action": "input",
+            "action": "click",
             "text": "",
             "dynamic_text_key": null,
             "skip_allowed": true,
             "max_wait_time_seconds": null,
-            "version": "Est tenetur sint fug2",
+            "version": "SHARED",
             "countdown_identifier": []
         }
     ]
