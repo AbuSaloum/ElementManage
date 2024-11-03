@@ -1,33 +1,6 @@
 {
     "sequence": [
         {
-            "name": "Test AACCCC",
-            "trigger_identifiers": [
-                {
-                    "name": "language_checkbox",
-                    "resource_id": "com.whatsapp:id/language_checkbox"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "next_button",
-                    "resource_id": "com.whatsapp:id/next_button"
-                }
-            ],
-            "action": "click",
-            "text": "",
-            "dynamic_text_key": null,
-            "skip_allowed": true,
-            "max_wait_time_seconds": null,
-            "version": "rr",
-            "countdown_identifier": [
-                {
-                    "name": "alert_title",
-                    "resource_id": "com.whatsapp:id/alertTitle"
-                }
-            ]
-        },
-        {
             "name": "Iris Curry244",
             "trigger_identifiers": [
                 {
