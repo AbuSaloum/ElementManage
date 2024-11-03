@@ -21,6 +21,28 @@
             "max_wait_time_seconds": null,
             "version": "SHARED",
             "countdown_identifier": []
+        },
+        {
+            "name": "alert_screen",
+            "trigger_identifiers": [
+                {
+                    "name": "alert_title",
+                    "resource_id": "com.whatsapp:id/alertTitle"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "ok_button",
+                    "resource_id": "android:id/button2"
+                }
+            ],
+            "action": "click",
+            "text": "",
+            "dynamic_text_key": null,
+            "skip_allowed": true,
+            "max_wait_time_seconds": null,
+            "version": "SHARED",
+            "countdown_identifier": []
         }
     ]
 }
