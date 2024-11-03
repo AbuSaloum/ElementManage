@@ -23,28 +23,6 @@
             "countdown_identifier": []
         },
         {
-            "name": "test2",
-            "trigger_identifiers": [
-                {
-                    "name": "language_checkbox",
-                    "resource_id": "com.whatsapp:id/language_checkbox"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "next_button",
-                    "resource_id": "com.whatsapp:id/next_button"
-                }
-            ],
-            "action": "click",
-            "text": "",
-            "dynamic_text_key": null,
-            "skip_allowed": true,
-            "max_wait_time_seconds": null,
-            "version": "test",
-            "countdown_identifier": []
-        },
-        {
             "name": "Test AAB",
             "trigger_identifiers": [
                 {
