@@ -43,6 +43,28 @@
             "max_wait_time_seconds": null,
             "version": "SHARED",
             "countdown_identifier": []
+        },
+        {
+            "name": "agree_continue",
+            "trigger_identifiers": [
+                {
+                    "name": "agree_button",
+                    "resource_id": "com.whatsapp:id/eula_accept"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "agree_button",
+                    "resource_id": "com.whatsapp:id/eula_accept"
+                }
+            ],
+            "action": "click",
+            "text": "",
+            "dynamic_text_key": null,
+            "skip_allowed": true,
+            "max_wait_time_seconds": null,
+            "version": "SHARED",
+            "countdown_identifier": []
         }
     ]
 }
