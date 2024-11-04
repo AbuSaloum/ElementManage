@@ -87,6 +87,28 @@
             "max_wait_time_seconds": null,
             "version": "SHARED",
             "countdown_identifier": []
+        },
+        {
+            "name": "input_phonenumber",
+            "trigger_identifiers": [
+                {
+                    "name": "phonenumber_field",
+                    "resource_id": "com.whatsapp:id/registration_phone"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "phonenumber_field",
+                    "resource_id": "com.whatsapp:id/registration_phone"
+                }
+            ],
+            "action": "input",
+            "text": "",
+            "dynamic_text_key": null,
+            "skip_allowed": true,
+            "max_wait_time_seconds": null,
+            "version": "SHARED",
+            "countdown_identifier": []
         }
     ]
 }
