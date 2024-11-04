@@ -131,6 +131,28 @@
             "max_wait_time_seconds": null,
             "version": "SHARED",
             "countdown_identifier": []
+        },
+        {
+            "name": "number_incorrect",
+            "trigger_identifiers": [
+                {
+                    "name": "not_valid_num",
+                    "resource_id": "android:id/message"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "not_valid_num",
+                    "resource_id": "android:id/message"
+                }
+            ],
+            "action": "check",
+            "text": "",
+            "dynamic_text_key": null,
+            "skip_allowed": false,
+            "max_wait_time_seconds": null,
+            "version": "SHARED",
+            "countdown_identifier": []
         }
     ]
 }
