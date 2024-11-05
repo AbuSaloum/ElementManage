@@ -32,7 +32,7 @@ except Exception as e:
     sys.exit(1)
 
 # Retrieve user_id and node_id
-user_id = 'rr5524'
+user_id = 'rr'
 node_id = 'rr'
 
 # Ensure user_id and node_id are set
