@@ -16,15 +16,14 @@ if not user_info_path:
     print("USER_INFO_FILE is not set in the environment variables.")
     sys.exit(1)
 
-# Read user_id and node_id from user_info file
 user_info = {}
 try:
-    with open(user_info_path, "r") as f:
+    with open(user_info_path, 'r') as f:
         for line in f:
             # Ignore comments and empty lines
             line = line.strip()
-            if line and not line.startswith("#"):
-                key_value = line.split("=", 1)
+            if line and not line.startswith('#'):
+                key_value = line.split('=', 1)
                 if len(key_value) == 2:
                     key, value = key_value
                     user_info[key.strip()] = value.strip()
@@ -47,9 +46,6 @@ logs_dir = 'C:\\Users\\User\\logs'
 
 # Define custom formats for developer, user, and simplified logs
 DEVELOPER_LOG_FORMAT = '{time:YYYY-MM-DD HH:mm:ss.SSS} | {level:<8} | {name}:{function}:{line} - {message}'
-    "{time:YYYY-MM-DD HH:mm:ss.SSS} | {level:<8} | "
-    "{name}:{function}:{line} - {message}"
-)
 
 USER_LOG_FORMAT = '{time:YYYY-MM-DD HH:mm:ss} | {level:<8} | {message}'
 
@@ -57,36 +53,17 @@ SIMPLE_LOG_FORMAT = '{time:YYYY-MM-DD HH:mm:ss} | {level:<8} | {message}'
 
 # Construct the log file paths with date and hour directories
 developer_log_file_template = 'rr'
-    logs_dir, "developer", "{time:YYYY-MM-DD}", "{time:HH}", f"{node_id}_{user_id}.log"
-)
 
 user_log_file_template = 'rr'
-    logs_dir, "user", "{time:YYYY-MM-DD}", "{time:HH}", f"{node_id}_{user_id}.log"
-)
 
 simple_log_file_template = 'C:\\Users\\User\\source\\repos\\element_manage\\logs\\simple\\{time:YYYY-MM-DD}\\{time:HH}\\simple.log'
-    logs_dir,
-    "simple",
-    "{time:YYYY-MM-DD}",
-    "{time:HH}",
-    f"{node_id}_{user_id}_simple.log",
-)
 
 developer_json_log_file_template = 'rr'
-    logs_dir,
-    "developer_json",
-    "{time:YYYY-MM-DD}",
-    "{time:HH}",
-    f"{node_id}_{user_id}.json",
-)
 
 user_json_log_file_template = 'rr'
-    logs_dir, "user_json", "{time:YYYY-MM-DD}", "{time:HH}", f"{node_id}_{user_id}.json"
-)
 
 # Remove any existing handlers before adding new ones to prevent duplication
 logger.remove()
-
 
 # Function to add common extra fields to logs
 def add_common_fields(record):
@@ -96,7 +73,6 @@ def add_common_fields(record):
     record["extra"]["service"] = os.getenv("SERVICE_NAME", "my_service")
     # Return True to ensure the log message is processed
     return True
-
 
 # Function to filter out messages related to sending states to Redis and the queue
 def exclude_state_sending_logs(record):
@@ -119,8 +95,6 @@ def exclude_state_sending_logs(record):
         return False
     return True
 
-
-# Add a handler for developer logs (detailed logs with backtrace)
 logger.add(
     developer_log_file_template,
     format=DEVELOPER_LOG_FORMAT,
@@ -159,18 +133,14 @@ logger.add(
     enqueue=True
     backtrace=True
     diagnose=True
-    filter=lambda record: exclude_state_sending_logs(record)
-    and (
-        record["extra"].update(
-            {
-                "user_id": user_id,
-                "node_id": node_id,
-                "environment": os.getenv("ENVIRONMENT", "development"),
-                "service": os.getenv("SERVICE_NAME", "my_service"),
-                "log_type": "simple",
-            }
-        )
-        or True
+    filter=lambda record: exclude_state_sending_logs(record) and (
+        record["extra"].update({
+            "user_id": user_id,
+            "node_id": node_id,
+            "environment": os.getenv("ENVIRONMENT", "development"),
+            "service": os.getenv("SERVICE_NAME", "my_service"),
+            "log_type": "simple",
+        }) or True
     ),
 )
 
@@ -186,16 +156,13 @@ logger.add(
     backtrace=True
     diagnose=True
     filter=lambda record: (
-        record["extra"].update(
-            {
-                "user_id": user_id,
-                "node_id": node_id,
-                "environment": os.getenv("ENVIRONMENT", "development"),
-                "service": os.getenv("SERVICE_NAME", "my_service"),
-                "log_type": "developer",
-            }
-        )
-        or True
+        record["extra"].update({
+            "user_id": user_id,
+            "node_id": node_id,
+            "environment": os.getenv("ENVIRONMENT", "development"),
+            "service": os.getenv("SERVICE_NAME", "my_service"),
+            "log_type": "developer",
+        }) or True
     ),
 )
 
@@ -211,16 +178,13 @@ logger.add(
     backtrace=True
     diagnose=True
     filter=lambda record: (
-        record["extra"].update(
-            {
-                "user_id": user_id,
-                "node_id": node_id,
-                "environment": os.getenv("ENVIRONMENT", "development"),
-                "service": os.getenv("SERVICE_NAME", "my_service"),
-                "log_type": "user",
-            }
-        )
-        or True
+        record["extra"].update({
+            "user_id": user_id,
+            "node_id": node_id,
+            "environment": os.getenv("ENVIRONMENT", "development"),
+            "service": os.getenv("SERVICE_NAME", "my_service"),
+            "log_type": "user",
+        }) or True
     ),
 )
 
@@ -235,7 +199,6 @@ logger.add(
     diagnose=True
     filter=add_common_fields,  # Add common fields
 )
-
 
 # Optional function to set logging level dynamically
 def set_logging_level(level: str):
@@ -285,18 +248,14 @@ def set_logging_level(level: str):
         enqueue=True
         backtrace=True
         diagnose=True
-        filter=lambda record: exclude_state_sending_logs(record)
-        and (
-            record["extra"].update(
-                {
-                    "user_id": user_id,
-                    "node_id": node_id,
-                    "environment": os.getenv("ENVIRONMENT", "development"),
-                    "service": os.getenv("SERVICE_NAME", "my_service"),
-                    "log_type": "simple",
-                }
-            )
-            or True
+        filter=lambda record: exclude_state_sending_logs(record) and (
+            record["extra"].update({
+                "user_id": user_id,
+                "node_id": node_id,
+                "environment": os.getenv("ENVIRONMENT", "development"),
+                "service": os.getenv("SERVICE_NAME", "my_service"),
+                "log_type": "simple",
+            }) or True
         ),
     )
     # Developer JSON log handler
@@ -311,16 +270,13 @@ def set_logging_level(level: str):
         backtrace=True
         diagnose=True
         filter=lambda record: (
-            record["extra"].update(
-                {
-                    "user_id": user_id,
-                    "node_id": node_id,
-                    "environment": os.getenv("ENVIRONMENT", "development"),
-                    "service": os.getenv("SERVICE_NAME", "my_service"),
-                    "log_type": "developer",
-                }
-            )
-            or True
+            record["extra"].update({
+                "user_id": user_id,
+                "node_id": node_id,
+                "environment": os.getenv("ENVIRONMENT", "development"),
+                "service": os.getenv("SERVICE_NAME", "my_service"),
+                "log_type": "developer",
+            }) or True
         ),
     )
     # User JSON log handler
@@ -335,16 +291,13 @@ def set_logging_level(level: str):
         backtrace=True
         diagnose=True
         filter=lambda record: (
-            record["extra"].update(
-                {
-                    "user_id": user_id,
-                    "node_id": node_id,
-                    "environment": os.getenv("ENVIRONMENT", "development"),
-                    "service": os.getenv("SERVICE_NAME", "my_service"),
-                    "log_type": "user",
-                }
-            )
-            or True
+            record["extra"].update({
+                "user_id": user_id,
+                "node_id": node_id,
+                "environment": os.getenv("ENVIRONMENT", "development"),
+                "service": os.getenv("SERVICE_NAME", "my_service"),
+                "log_type": "user",
+            }) or True
         ),
     )
     # Console handler for user logs
