@@ -101,10 +101,10 @@ logger.add(
     level="DEBUG",
     rotation="1 hour",
     retention="3 days",
-    compression='zipAAAA'
-    enqueue=True
-    backtrace=True
-    diagnose=True
+    compression='zipAAAA',
+    enqueue=True,
+    backtrace=True,
+    diagnose=True,
     filter=add_common_fields,  # Add common fields
 )
 
@@ -115,10 +115,10 @@ logger.add(
     level="INFO",  # Show messages from INFO level and above
     rotation="1 hour",
     retention="3 days",
-    compression='zipAAAA'
-    enqueue=True
-    backtrace=True
-    diagnose=True
+    compression='zipAAAA',
+    enqueue=True,
+    backtrace=True,
+    diagnose=True,
     filter=add_common_fields,  # Add common fields
 )
 
@@ -129,10 +129,10 @@ logger.add(
     level="INFO",  # Show messages from INFO level and above
     rotation="1 hour",
     retention="3 days",
-    compression='zipAAAA'
-    enqueue=True
-    backtrace=True
-    diagnose=True
+    compression='zipAAAA',
+    enqueue=True,
+    backtrace=True,
+    diagnose=True,
     filter=lambda record: exclude_state_sending_logs(record) and (
         record["extra"].update({
             "user_id": user_id,
@@ -150,11 +150,11 @@ logger.add(
     level="DEBUG",
     rotation="1 hour",
     retention="3 days",
-    compression='zipAAAA'
-    enqueue=True
-    serialize=True
-    backtrace=True
-    diagnose=True
+    compression='zipAAAA',
+    enqueue=True,
+    serialize=True,
+    backtrace=True,
+    diagnose=True,
     filter=lambda record: (
         record["extra"].update({
             "user_id": user_id,
@@ -172,11 +172,11 @@ logger.add(
     level="INFO",
     rotation="1 hour",
     retention="3 days",
-    compression='zipAAAA'
-    enqueue=True
-    serialize=True
-    backtrace=True
-    diagnose=True
+    compression='zipAAAA',
+    enqueue=True,
+    serialize=True,
+    backtrace=True,
+    diagnose=True,
     filter=lambda record: (
         record["extra"].update({
             "user_id": user_id,
@@ -194,9 +194,9 @@ logger.add(
     format=USER_LOG_FORMAT,
     level="INFO",
     colorize=True,
-    enqueue=True
-    backtrace=True
-    diagnose=True
+    enqueue=True,
+    backtrace=True,
+    diagnose=True,
     filter=add_common_fields,  # Add common fields
 )
 
@@ -218,10 +218,10 @@ def set_logging_level(level: str):
         level=level.upper(),
         rotation="1 hour",
         retention="3 days",
-        compression='zipAAAA'
-        enqueue=True
-        backtrace=True
-        diagnose=True
+        compression='zipAAAA',
+        enqueue=True,
+        backtrace=True,
+        diagnose=True,
         filter=add_common_fields,
     )
     # User log handler
@@ -231,10 +231,10 @@ def set_logging_level(level: str):
         level="INFO",
         rotation="1 hour",
         retention="3 days",
-        compression='zipAAAA'
-        enqueue=True
-        backtrace=True
-        diagnose=True
+        compression='zipAAAA',
+        enqueue=True,
+        backtrace=True,
+        diagnose=True,
         filter=add_common_fields,
     )
     # Simplified log handler with exclusion filter
@@ -244,10 +244,10 @@ def set_logging_level(level: str):
         level="INFO",
         rotation="1 hour",
         retention="3 days",
-        compression='zipAAAA'
-        enqueue=True
-        backtrace=True
-        diagnose=True
+        compression='zipAAAA',
+        enqueue=True,
+        backtrace=True,
+        diagnose=True,
         filter=lambda record: exclude_state_sending_logs(record) and (
             record["extra"].update({
                 "user_id": user_id,
@@ -264,11 +264,11 @@ def set_logging_level(level: str):
         level=level.upper(),
         rotation="1 hour",
         retention="3 days",
-        compression='zipAAAA'
-        enqueue=True
-        serialize=True
-        backtrace=True
-        diagnose=True
+        compression='zipAAAA',
+        enqueue=True,
+        serialize=True,
+        backtrace=True,
+        diagnose=True,
         filter=lambda record: (
             record["extra"].update({
                 "user_id": user_id,
@@ -285,11 +285,11 @@ def set_logging_level(level: str):
         level="INFO",
         rotation="1 hour",
         retention="3 days",
-        compression='zipAAAA'
-        enqueue=True
-        serialize=True
-        backtrace=True
-        diagnose=True
+        compression='zipAAAA',
+        enqueue=True,
+        serialize=True,
+        backtrace=True,
+        diagnose=True,
         filter=lambda record: (
             record["extra"].update({
                 "user_id": user_id,
@@ -306,8 +306,8 @@ def set_logging_level(level: str):
         format=USER_LOG_FORMAT,
         level="INFO",
         colorize=True,
-        enqueue=True
-        backtrace=True
-        diagnose=True
+        enqueue=True,
+        backtrace=True,
+        diagnose=True,
         filter=add_common_fields,
     )
