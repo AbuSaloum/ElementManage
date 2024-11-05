@@ -82,7 +82,7 @@
             ],
             "action": "input",
             "text": "",
-            "dynamic_text_key": null,
+            "dynamic_text_key": "country_prefix",
             "skip_allowed": true,
             "max_wait_time_seconds": null,
             "version": "SHARED",
