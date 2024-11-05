@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Load user_info file path from environment variables
-user_info_path = 'C:\\path\\to\\user_info.txt'
+user_info_path = 'string'
 if not user_info_path:
     print("USER_INFO_FILE is not set in the environment variables.")
     sys.exit(1)
@@ -31,8 +31,9 @@ except Exception as e:
     print(f"Failed to read user_info from {user_info_path}: {e}")
     sys.exit(1)
 
-user_id = 'rr552'
-node_id = 'rr'
+# Retrieve user_id and node_id
+user_id = 'string'
+node_id = 'string'
 
 # Ensure user_id and node_id are set
 if not user_id or not node_id:
@@ -40,26 +41,26 @@ if not user_id or not node_id:
     sys.exit(1)
 
 # Load log directory path from environment variable or default to user's home directory
-logs_dir = 'C:\\Users\\User\\logs'
-logs_dir = 'C:\\Users\\User\\logs'
+logs_dir = 'string'
+logs_dir = 'string'
 
 # Define custom formats for developer, user, and simplified logs
-DEVELOPER_LOG_FORMAT = '{time:YYYY-MM-DD HH:mm:ss.SSS} | {level:<8} | {name}:{function}:{line} - {message}'
+DEVELOPER_LOG_FORMAT = 'string'
 
-USER_LOG_FORMAT = '{time:YYYY-MM-DD HH:mm:ss} | {level:<8} | {message}'
+USER_LOG_FORMAT = 'string'
 
-SIMPLE_LOG_FORMAT = '{time:YYYY-MM-DD HH:mm:ss} | {level:<8} | {message}'
+SIMPLE_LOG_FORMAT = 'string'
 
 # Construct the log file paths with date and hour directories
-developer_log_file_template = 'rr'
+developer_log_file_template = 'string'
 
-user_log_file_template = 'rr'
+user_log_file_template = 'string'
 
-simple_log_file_template = 'C:\\Users\\User\\source\\repos\\element_manage\\logs\\simple\\{time:YYYY-MM-DD}\\{time:HH}\\simple.log'
+simple_log_file_template = 'string'
 
-developer_json_log_file_template = 'rr'
+developer_json_log_file_template = 'string'
 
-user_json_log_file_template = 'rr'
+user_json_log_file_template = 'string'
 
 # Remove any existing handlers before adding new ones to prevent duplication
 logger.remove()
@@ -100,7 +101,7 @@ logger.add(
     level="DEBUG",
     rotation="1 hour",
     retention="3 days",
-    compression='zip'
+    compression='string'
     enqueue=True
     backtrace=True
     diagnose=True
@@ -114,7 +115,7 @@ logger.add(
     level="INFO",  # Show messages from INFO level and above
     rotation="1 hour",
     retention="3 days",
-    compression='zip'
+    compression='string'
     enqueue=True
     backtrace=True
     diagnose=True
@@ -128,7 +129,7 @@ logger.add(
     level="INFO",  # Show messages from INFO level and above
     rotation="1 hour",
     retention="3 days",
-    compression='zip'
+    compression='string'
     enqueue=True
     backtrace=True
     diagnose=True
@@ -149,7 +150,7 @@ logger.add(
     level="DEBUG",
     rotation="1 hour",
     retention="3 days",
-    compression='zip'
+    compression='string'
     enqueue=True
     serialize=True
     backtrace=True
@@ -171,7 +172,7 @@ logger.add(
     level="INFO",
     rotation="1 hour",
     retention="3 days",
-    compression='zip'
+    compression='string'
     enqueue=True
     serialize=True
     backtrace=True
@@ -217,7 +218,7 @@ def set_logging_level(level: str):
         level=level.upper(),
         rotation="1 hour",
         retention="3 days",
-        compression='zip'
+        compression='string'
         enqueue=True
         backtrace=True
         diagnose=True
@@ -230,7 +231,7 @@ def set_logging_level(level: str):
         level="INFO",
         rotation="1 hour",
         retention="3 days",
-        compression='zip'
+        compression='string'
         enqueue=True
         backtrace=True
         diagnose=True
@@ -243,7 +244,7 @@ def set_logging_level(level: str):
         level="INFO",
         rotation="1 hour",
         retention="3 days",
-        compression='zip'
+        compression='string'
         enqueue=True
         backtrace=True
         diagnose=True
@@ -263,7 +264,7 @@ def set_logging_level(level: str):
         level=level.upper(),
         rotation="1 hour",
         retention="3 days",
-        compression='zip'
+        compression='string'
         enqueue=True
         serialize=True
         backtrace=True
@@ -284,7 +285,7 @@ def set_logging_level(level: str):
         level="INFO",
         rotation="1 hour",
         retention="3 days",
-        compression='zip'
+        compression='string'
         enqueue=True
         serialize=True
         backtrace=True
