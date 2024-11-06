@@ -1,0 +1,92 @@
+{
+    "sequence": [
+        {
+            "name": "ABUSALOUMdd5s",
+            "trigger_identifiers": [
+                {
+                    "name": "Nomlanga Rivas",
+                    "xpath": "Eveniet facilis qui"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "Gary Gill",
+                    "accessibility_id": "Dignissimos voluptat"
+                }
+            ],
+            "action": "click",
+            "text": "",
+            "dynamic_text_key": null,
+            "skip_allowed": true,
+            "max_wait_time_seconds": null,
+            "version": "rr",
+            "countdown_identifier": []
+        },
+        {
+            "name": "rr",
+            "trigger_identifiers": [
+                {
+                    "name": "Nomlanga Rivas",
+                    "xpath": "Eveniet facilis qui"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "Gary Gill",
+                    "accessibility_id": "Dignissimos voluptat"
+                }
+            ],
+            "action": "click",
+            "text": "",
+            "dynamic_text_key": null,
+            "skip_allowed": true,
+            "max_wait_time_seconds": null,
+            "version": "rr",
+            "countdown_identifier": []
+        },
+        {
+            "name": "eeemmm",
+            "trigger_identifiers": [
+                {
+                    "name": "Nomlanga Rivas",
+                    "xpath": "Eveniet facilis qui"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "Gary Gill",
+                    "accessibility_id": "Dignissimos voluptat"
+                }
+            ],
+            "action": "input",
+            "text": "",
+            "dynamic_text_key": "trer",
+            "skip_allowed": true,
+            "max_wait_time_seconds": null,
+            "version": "test",
+            "countdown_identifier": []
+        },
+        {
+            "name": "tt2",
+            "trigger_identifiers": [
+                {
+                    "name": "Nomlanga Rivas",
+                    "xpath": "Eveniet facilis qui"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "Gary Gill",
+                    "accessibility_id": "Dignissimos voluptat"
+                }
+            ],
+            "action": "result",
+            "text": "",
+            "dynamic_text_key": null,
+            "skip_allowed": true,
+            "max_wait_time_seconds": null,
+            "version": "tt",
+            "countdown_identifier": []
+        }
+    ]
+}
