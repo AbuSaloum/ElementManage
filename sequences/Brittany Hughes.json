@@ -43,6 +43,28 @@
             "max_wait_time_seconds": null,
             "version": "test",
             "countdown_identifier": []
+        },
+        {
+            "name": "test2",
+            "trigger_identifiers": [
+                {
+                    "name": "Yasir Jarvis",
+                    "xpath": "Quibusdam odit liber"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "Nomlanga Rivas",
+                    "xpath": "Eveniet facilis qui"
+                }
+            ],
+            "action": "result",
+            "text": "",
+            "dynamic_text_key": null,
+            "skip_allowed": true,
+            "max_wait_time_seconds": null,
+            "version": "test",
+            "countdown_identifier": []
         }
     ]
 }
