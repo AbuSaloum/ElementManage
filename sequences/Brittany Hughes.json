@@ -20,7 +20,16 @@
             "skip_allowed": true,
             "max_wait_time_seconds": null,
             "version": "eremmm",
-            "countdown_identifier": []
+            "countdown_identifier": [],
+            "state_code": null,
+            "status": null,
+            "reason": null,
+            "conditions": [
+                {
+                    "operator": null,
+                    "identifiers": []
+                }
+            ]
         },
         {
             "name": "test",
@@ -42,7 +51,16 @@
             "skip_allowed": true,
             "max_wait_time_seconds": null,
             "version": "test",
-            "countdown_identifier": []
+            "countdown_identifier": [],
+            "state_code": "00",
+            "status": "success",
+            "reason": "tt",
+            "conditions": [
+                {
+                    "operator": "AND",
+                    "identifiers": []
+                }
+            ]
         },
         {
             "name": "test2",
@@ -64,7 +82,16 @@
             "skip_allowed": true,
             "max_wait_time_seconds": null,
             "version": "test",
-            "countdown_identifier": []
+            "countdown_identifier": [],
+            "state_code": "11",
+            "status": "failure",
+            "reason": "tte",
+            "conditions": [
+                {
+                    "operator": "OR",
+                    "identifiers": []
+                }
+            ]
         }
     ]
 }
