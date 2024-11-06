@@ -1,0 +1,48 @@
+{
+    "sequence": [
+        {
+            "name": "eeemmm",
+            "trigger_identifiers": [
+                {
+                    "name": "Yasir Jarvis",
+                    "xpath": "Quibusdam odit liber"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "Nomlanga Rivas",
+                    "xpath": "Eveniet facilis qui"
+                }
+            ],
+            "action": "click",
+            "text": "",
+            "dynamic_text_key": null,
+            "skip_allowed": true,
+            "max_wait_time_seconds": null,
+            "version": "eremmm",
+            "countdown_identifier": []
+        },
+        {
+            "name": "tt",
+            "trigger_identifiers": [
+                {
+                    "name": "Dustin Love",
+                    "accessibility_id": "Culpa dolore omnis v"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "InputField",
+                    "xpath": "Submit"
+                }
+            ],
+            "action": "result",
+            "text": "",
+            "dynamic_text_key": null,
+            "skip_allowed": true,
+            "max_wait_time_seconds": null,
+            "version": "rr",
+            "countdown_identifier": []
+        }
+    ]
+}
