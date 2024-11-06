@@ -23,17 +23,17 @@
             "countdown_identifier": []
         },
         {
-            "name": "tt",
+            "name": "test",
             "trigger_identifiers": [
                 {
-                    "name": "Dustin Love",
-                    "accessibility_id": "Culpa dolore omnis v"
+                    "name": "Yasir Jarvis",
+                    "xpath": "Quibusdam odit liber"
                 }
             ],
             "action_identifiers": [
                 {
-                    "name": "InputField",
-                    "xpath": "Submit"
+                    "name": "Nomlanga Rivas",
+                    "xpath": "Eveniet facilis qui"
                 }
             ],
             "action": "result",
@@ -41,7 +41,7 @@
             "dynamic_text_key": null,
             "skip_allowed": true,
             "max_wait_time_seconds": null,
-            "version": "rr",
+            "version": "test",
             "countdown_identifier": []
         }
     ]
