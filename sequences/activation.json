@@ -211,6 +211,22 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "test result",
+            "trigger_identifiers": [],
+            "action_identifiers": [],
+            "action": "result",
+            "text": "",
+            "dynamic_text_key": null,
+            "skip_allowed": true,
+            "max_wait_time_seconds": null,
+            "version": "SHARED",
+            "countdown_identifier": [],
+            "state_code": "RERERER",
+            "status": "success",
+            "reason": "FDSFSFSFSF",
+            "conditions": []
         }
     ]
 }
