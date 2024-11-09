@@ -127,6 +127,24 @@
             "action": "check",
             "skip_allowed": false,
             "version": "SHARED"
+        },
+        {
+            "name": "click_yes",
+            "trigger_identifiers": [
+                {
+                    "name": "confirm_number_popup",
+                    "resource_id": "com.whatsapp:id/confirm_phone_number_text_view"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "confirm_yes_button",
+                    "resource_id": "android:id/button1"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": true,
+            "version": "SHARED"
         }
     ]
 }
