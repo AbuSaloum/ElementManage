@@ -147,6 +147,24 @@
             "version": "SHARED"
         },
         {
+            "name": "click_continue",
+            "trigger_identifiers": [
+                {
+                    "name": "choose_how_to_verify",
+                    "resource_id": "com.whatsapp:id/request_otp_code_bottom_sheet_title"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "continue_button",
+                    "resource_id": "com.whatsapp:id/continue_button"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": true,
+            "version": "SHARED"
+        },
+        {
             "name": "verify_another_way",
             "trigger_identifiers": [
                 {
