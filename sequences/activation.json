@@ -129,30 +129,6 @@
             "version": "SHARED"
         },
         {
-            "name": "GDFG",
-            "action": "result",
-            "skip_allowed": true,
-            "version": "SHARED",
-            "state_code": "RERERER",
-            "status": "success",
-            "reason": "FDSFSFSFSF",
-            "conditions": [
-                {
-                    "operator": "AND",
-                    "identifiers": [
-                        {
-                            "name": "choose_method_screen",
-                            "resource_id": "com.whatsapp:id/make_and_manage_calls"
-                        },
-                        {
-                            "name": "verify_another_way_button",
-                            "resource_id": "com.whatsapp:id/secondary_button"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "name": "test result",
             "action": "result",
             "skip_allowed": true,
