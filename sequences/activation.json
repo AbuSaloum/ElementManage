@@ -111,24 +111,6 @@
             "version": "SHARED"
         },
         {
-            "name": "number_incorrect",
-            "trigger_identifiers": [
-                {
-                    "name": "not_valid_num",
-                    "resource_id": "android:id/message"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "not_valid_num",
-                    "resource_id": "android:id/message"
-                }
-            ],
-            "action": "check",
-            "skip_allowed": false,
-            "version": "SHARED"
-        },
-        {
             "name": "click_yes",
             "trigger_identifiers": [
                 {
@@ -140,6 +122,24 @@
                 {
                     "name": "confirm_yes_button",
                     "resource_id": "android:id/button1"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": true,
+            "version": "SHARED"
+        },
+        {
+            "name": "click_sms",
+            "trigger_identifiers": [
+                {
+                    "name": "choose_how_to_verify",
+                    "resource_id": "com.whatsapp:id/request_otp_code_bottom_sheet_title"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "sms",
+                    "text": "SMS"
                 }
             ],
             "action": "click",
@@ -162,6 +162,24 @@
             ],
             "action": "click",
             "skip_allowed": true,
+            "version": "SHARED"
+        },
+        {
+            "name": "number_incorrect",
+            "trigger_identifiers": [
+                {
+                    "name": "not_valid_num",
+                    "resource_id": "android:id/message"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "not_valid_num",
+                    "resource_id": "android:id/message"
+                }
+            ],
+            "action": "check",
+            "skip_allowed": false,
             "version": "SHARED"
         }
     ]
