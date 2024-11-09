@@ -145,6 +145,24 @@
             "action": "click",
             "skip_allowed": true,
             "version": "SHARED"
+        },
+        {
+            "name": "verify_another_way",
+            "trigger_identifiers": [
+                {
+                    "name": "choose_method_screen",
+                    "resource_id": "com.whatsapp:id/make_and_manage_calls"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "verify_another_way_button",
+                    "resource_id": "com.whatsapp:id/secondary_button"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": true,
+            "version": "SHARED"
         }
     ]
 }
