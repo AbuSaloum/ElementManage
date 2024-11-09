@@ -127,15 +127,6 @@
             "action": "check",
             "skip_allowed": false,
             "version": "SHARED"
-        },
-        {
-            "name": "test result",
-            "action": "result",
-            "skip_allowed": true,
-            "version": "SHARED",
-            "state_code": "RERERER",
-            "status": "success",
-            "reason": "FDSFSFSFSF"
         }
     ]
 }
