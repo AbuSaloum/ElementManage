@@ -111,24 +111,6 @@
             "version": "SHARED"
         },
         {
-            "name": "click_yes",
-            "trigger_identifiers": [
-                {
-                    "name": "confirm_number_popup",
-                    "resourceId": "com.whatsapp:id/confirm_phone_number_text_view"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "confirm_yes_button",
-                    "resourceId": "android:id/button1"
-                }
-            ],
-            "action": "click",
-            "skip_allowed": true,
-            "version": "SHARED"
-        },
-        {
             "name": "number_incorrect",
             "trigger_identifiers": [
                 {
@@ -144,6 +126,24 @@
             ],
             "action": "check",
             "skip_allowed": false,
+            "version": "SHARED"
+        },
+        {
+            "name": "click_yes",
+            "trigger_identifiers": [
+                {
+                    "name": "confirm_number_popup",
+                    "resourceId": "com.whatsapp:id/confirm_phone_number_text_view"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "confirm_yes_button",
+                    "resourceId": "android:id/button1"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": true,
             "version": "SHARED"
         },
         {
