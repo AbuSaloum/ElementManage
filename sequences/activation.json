@@ -1,6 +1,24 @@
 {
     "sequence": [
         {
+            "name": "select_language",
+            "trigger_identifiers": [
+                {
+                    "name": "language_checkbox",
+                    "resourceId": "com.whatsapp:id/language_checkbox"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "language_checkbox",
+                    "resourceId": "com.whatsapp:id/language_checkbox"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": true,
+            "version": "SHARED"
+        },
+        {
             "name": "agree_continue",
             "trigger_identifiers": [
                 {
@@ -85,24 +103,6 @@
                 {
                     "name": "continue_button",
                     "resourceId": "com.whatsapp:id/continue_button"
-                }
-            ],
-            "action": "click",
-            "skip_allowed": true,
-            "version": "SHARED"
-        },
-        {
-            "name": "select_language",
-            "trigger_identifiers": [
-                {
-                    "name": "language_checkbox",
-                    "resourceId": "com.whatsapp:id/language_checkbox"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "language_checkbox",
-                    "resourceId": "com.whatsapp:id/language_checkbox"
                 }
             ],
             "action": "click",
