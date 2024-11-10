@@ -1,60 +1,6 @@
 {
     "sequence": [
         {
-            "name": "eeemmm",
-            "action": "result",
-            "skip_allowed": true,
-            "version": "eremmm",
-            "state_code": "33",
-            "status": "failure",
-            "reason": "ee",
-            "conditions": [
-                {
-                    "operator": "AND",
-                    "identifiers": [
-                        {
-                            "name": "Nomlanga Rivas",
-                            "xpath": "Eveniet facilis qui"
-                        },
-                        {
-                            "name": "Sage Rowe",
-                            "accessibility_id": "Duis fugiat quia ex "
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "test",
-            "trigger_identifiers": [
-                {
-                    "name": "Yasir Jarvis",
-                    "xpath": "Quibusdam odit liber"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "Nomlanga Rivas",
-                    "xpath": "Eveniet facilis qui"
-                }
-            ],
-            "action": "check_and_wait",
-            "text": "rr",
-            "dynamic_text_key": "ere",
-            "skip_allowed": true,
-            "max_wait_time_seconds": 33,
-            "version": "test",
-            "countdown_identifier": [
-                {
-                    "name": "Yasir Jarvis",
-                    "xpath": "Quibusdam odit liber"
-                }
-            ],
-            "state_code": "00",
-            "status": "success",
-            "reason": "tt"
-        },
-        {
             "name": "test2",
             "trigger_identifiers": [
                 {
@@ -92,14 +38,14 @@
                         },
                         {
                             "name": "Xenos Jones",
-                            "resource_id": "Ut illum ea tenetur"
+                            "resourceId": "Ut illum ea tenetur"
                         }
                     ]
                 }
             ]
         },
         {
-            "name": "mememe",
+            "name": "test",
             "trigger_identifiers": [
                 {
                     "name": "Yasir Jarvis",
@@ -112,12 +58,21 @@
                     "xpath": "Eveniet facilis qui"
                 }
             ],
-            "action": "result",
+            "action": "check_and_wait",
+            "text": "rr",
+            "dynamic_text_key": "ere",
             "skip_allowed": true,
+            "max_wait_time_seconds": 33,
             "version": "test",
-            "state_code": "11",
-            "status": "failure",
-            "reason": "tte"
+            "countdown_identifier": [
+                {
+                    "name": "Yasir Jarvis",
+                    "xpath": "Quibusdam odit liber"
+                }
+            ],
+            "state_code": "00",
+            "status": "success",
+            "reason": "tt"
         },
         {
             "name": "mar",
@@ -145,11 +100,56 @@
                         },
                         {
                             "name": "Xenos Jones",
-                            "resource_id": "Ut illum ea tenetur"
+                            "resourceId": "Ut illum ea tenetur"
                         }
                     ]
                 }
             ]
+        },
+        {
+            "name": "eeemmm",
+            "action": "result",
+            "skip_allowed": true,
+            "version": "eremmm",
+            "state_code": "33",
+            "status": "failure",
+            "reason": "ee",
+            "conditions": [
+                {
+                    "operator": "AND",
+                    "identifiers": [
+                        {
+                            "name": "Nomlanga Rivas",
+                            "xpath": "Eveniet facilis qui"
+                        },
+                        {
+                            "name": "Sage Rowe",
+                            "accessibility_id": "Duis fugiat quia ex "
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mememe",
+            "trigger_identifiers": [
+                {
+                    "name": "Yasir Jarvis",
+                    "xpath": "Quibusdam odit liber"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "Nomlanga Rivas",
+                    "xpath": "Eveniet facilis qui"
+                }
+            ],
+            "action": "result",
+            "skip_allowed": true,
+            "version": "test",
+            "state_code": "11",
+            "status": "failure",
+            "reason": "tte"
         }
     ]
 }
