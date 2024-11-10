@@ -1,181 +1,17 @@
 {
     "sequence": [
         {
-            "name": "select_language",
-            "trigger_identifiers": [
-                {
-                    "name": "language_checkbox",
-                    "resource_id": "com.whatsapp:id/language_checkbox"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "language_checkbox",
-                    "resource_id": "com.whatsapp:id/language_checkbox"
-                }
-            ],
-            "action": "click",
-            "skip_allowed": true,
-            "version": "SHARED"
-        },
-        {
-            "name": "alert_screen",
-            "trigger_identifiers": [
-                {
-                    "name": "alert_title",
-                    "resource_id": "com.whatsapp:id/alertTitle"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "ok_button",
-                    "resource_id": "android:id/button2"
-                }
-            ],
-            "action": "click",
-            "skip_allowed": true,
-            "version": "SHARED"
-        },
-        {
             "name": "agree_continue",
             "trigger_identifiers": [
                 {
                     "name": "agree_button",
-                    "resource_id": "com.whatsapp:id/eula_accept"
+                    "resourceId": "com.whatsapp:id/eula_accept"
                 }
             ],
             "action_identifiers": [
                 {
                     "name": "agree_button",
-                    "resource_id": "com.whatsapp:id/eula_accept"
-                }
-            ],
-            "action": "click",
-            "skip_allowed": true,
-            "version": "SHARED"
-        },
-        {
-            "name": "input_prefix",
-            "trigger_identifiers": [
-                {
-                    "name": "prefix_field",
-                    "resource_id": "com.whatsapp:id/registration_cc"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "prefix_field",
-                    "resource_id": "com.whatsapp:id/registration_cc"
-                }
-            ],
-            "action": "input",
-            "dynamic_text_key": "country_prefix",
-            "skip_allowed": true,
-            "version": "SHARED"
-        },
-        {
-            "name": "input_phonenumber",
-            "trigger_identifiers": [
-                {
-                    "name": "phonenumber_field",
-                    "resource_id": "com.whatsapp:id/registration_phone"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "phonenumber_field",
-                    "resource_id": "com.whatsapp:id/registration_phone"
-                }
-            ],
-            "action": "input",
-            "dynamic_text_key": "phone_number",
-            "skip_allowed": true,
-            "version": "SHARED"
-        },
-        {
-            "name": "click_next",
-            "trigger_identifiers": [
-                {
-                    "name": "next_button ",
-                    "resource_id": "com.whatsapp:id/registration_submit"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "next_button ",
-                    "resource_id": "com.whatsapp:id/registration_submit"
-                }
-            ],
-            "action": "click",
-            "skip_allowed": true,
-            "version": "SHARED"
-        },
-        {
-            "name": "click_yes",
-            "trigger_identifiers": [
-                {
-                    "name": "confirm_number_popup",
-                    "resource_id": "com.whatsapp:id/confirm_phone_number_text_view"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "confirm_yes_button",
-                    "resource_id": "android:id/button1"
-                }
-            ],
-            "action": "click",
-            "skip_allowed": true,
-            "version": "SHARED"
-        },
-        {
-            "name": "click_sms",
-            "trigger_identifiers": [
-                {
-                    "name": "choose_how_to_verify",
-                    "resource_id": "com.whatsapp:id/request_otp_code_bottom_sheet_title"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "sms",
-                    "text": "SMS"
-                }
-            ],
-            "action": "click",
-            "skip_allowed": true,
-            "version": "SHARED"
-        },
-        {
-            "name": "click_continue",
-            "trigger_identifiers": [
-                {
-                    "name": "choose_how_to_verify",
-                    "resource_id": "com.whatsapp:id/request_otp_code_bottom_sheet_title"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "continue_button",
-                    "resource_id": "com.whatsapp:id/continue_button"
-                }
-            ],
-            "action": "click",
-            "skip_allowed": true,
-            "version": "SHARED"
-        },
-        {
-            "name": "verify_another_way",
-            "trigger_identifiers": [
-                {
-                    "name": "choose_method_screen",
-                    "resource_id": "com.whatsapp:id/make_and_manage_calls"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "verify_another_way_button",
-                    "resource_id": "com.whatsapp:id/secondary_button"
+                    "resourceId": "com.whatsapp:id/eula_accept"
                 }
             ],
             "action": "click",
@@ -187,17 +23,181 @@
             "trigger_identifiers": [
                 {
                     "name": "not_valid_num",
-                    "resource_id": "android:id/message"
+                    "resourceId": "android:id/message"
                 }
             ],
             "action_identifiers": [
                 {
                     "name": "not_valid_num",
-                    "resource_id": "android:id/message"
+                    "resourceId": "android:id/message"
                 }
             ],
             "action": "check",
             "skip_allowed": false,
+            "version": "SHARED"
+        },
+        {
+            "name": "input_prefix",
+            "trigger_identifiers": [
+                {
+                    "name": "prefix_field",
+                    "resourceId": "com.whatsapp:id/registration_cc"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "prefix_field",
+                    "resourceId": "com.whatsapp:id/registration_cc"
+                }
+            ],
+            "action": "input",
+            "dynamic_text_key": "country_prefix",
+            "skip_allowed": true,
+            "version": "SHARED"
+        },
+        {
+            "name": "verify_another_way",
+            "trigger_identifiers": [
+                {
+                    "name": "choose_method_screen",
+                    "resourceId": "com.whatsapp:id/make_and_manage_calls"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "verify_another_way_button",
+                    "resourceId": "com.whatsapp:id/secondary_button"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": true,
+            "version": "SHARED"
+        },
+        {
+            "name": "click_continue",
+            "trigger_identifiers": [
+                {
+                    "name": "choose_how_to_verify",
+                    "resourceId": "com.whatsapp:id/request_otp_code_bottom_sheet_title"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "continue_button",
+                    "resourceId": "com.whatsapp:id/continue_button"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": true,
+            "version": "SHARED"
+        },
+        {
+            "name": "select_language",
+            "trigger_identifiers": [
+                {
+                    "name": "language_checkbox",
+                    "resourceId": "com.whatsapp:id/language_checkbox"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "language_checkbox",
+                    "resourceId": "com.whatsapp:id/language_checkbox"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": true,
+            "version": "SHARED"
+        },
+        {
+            "name": "click_next",
+            "trigger_identifiers": [
+                {
+                    "name": "next_button ",
+                    "resourceId": "com.whatsapp:id/registration_submit"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "next_button ",
+                    "resourceId": "com.whatsapp:id/registration_submit"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": true,
+            "version": "SHARED"
+        },
+        {
+            "name": "alert_screen",
+            "trigger_identifiers": [
+                {
+                    "name": "alert_title",
+                    "resourceId": "com.whatsapp:id/alertTitle"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "ok_button",
+                    "resourceId": "android:id/button2"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": true,
+            "version": "SHARED"
+        },
+        {
+            "name": "click_yes",
+            "trigger_identifiers": [
+                {
+                    "name": "confirm_number_popup",
+                    "resourceId": "com.whatsapp:id/confirm_phone_number_text_view"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "confirm_yes_button",
+                    "resourceId": "android:id/button1"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": true,
+            "version": "SHARED"
+        },
+        {
+            "name": "input_phonenumber",
+            "trigger_identifiers": [
+                {
+                    "name": "phonenumber_field",
+                    "resourceId": "com.whatsapp:id/registration_phone"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "phonenumber_field",
+                    "resourceId": "com.whatsapp:id/registration_phone"
+                }
+            ],
+            "action": "input",
+            "dynamic_text_key": "phone_number",
+            "skip_allowed": true,
+            "version": "SHARED"
+        },
+        {
+            "name": "click_sms",
+            "trigger_identifiers": [
+                {
+                    "name": "choose_how_to_verify",
+                    "resourceId": "com.whatsapp:id/request_otp_code_bottom_sheet_title"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "sms",
+                    "text": "SMS"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": true,
             "version": "SHARED"
         }
     ]
