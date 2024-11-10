@@ -93,6 +93,24 @@
             "version": "SHARED"
         },
         {
+            "name": "click_next",
+            "trigger_identifiers": [
+                {
+                    "name": "next_button ",
+                    "resourceId": "com.whatsapp:id/registration_submit"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "next_button ",
+                    "resourceId": "com.whatsapp:id/registration_submit"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": true,
+            "version": "SHARED"
+        },
+        {
             "name": "click_yes",
             "trigger_identifiers": [
                 {
@@ -176,24 +194,6 @@
                 {
                     "name": "continue_button",
                     "resourceId": "com.whatsapp:id/continue_button"
-                }
-            ],
-            "action": "click",
-            "skip_allowed": true,
-            "version": "SHARED"
-        },
-        {
-            "name": "click_next",
-            "trigger_identifiers": [
-                {
-                    "name": "next_button ",
-                    "resourceId": "com.whatsapp:id/registration_submit"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "next_button ",
-                    "resourceId": "com.whatsapp:id/registration_submit"
                 }
             ],
             "action": "click",
