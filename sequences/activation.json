@@ -55,6 +55,25 @@
             "version": "SHARED"
         },
         {
+            "name": "input_phonenumber",
+            "trigger_identifiers": [
+                {
+                    "name": "phonenumber_field",
+                    "resourceId": "com.whatsapp:id/registration_phone"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "phonenumber_field",
+                    "resourceId": "com.whatsapp:id/registration_phone"
+                }
+            ],
+            "action": "input",
+            "dynamic_text_key": "phone_number",
+            "skip_allowed": true,
+            "version": "SHARED"
+        },
+        {
             "name": "input_prefix",
             "trigger_identifiers": [
                 {
@@ -160,25 +179,6 @@
                 }
             ],
             "action": "click",
-            "skip_allowed": true,
-            "version": "SHARED"
-        },
-        {
-            "name": "input_phonenumber",
-            "trigger_identifiers": [
-                {
-                    "name": "phonenumber_field",
-                    "resourceId": "com.whatsapp:id/registration_phone"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "phonenumber_field",
-                    "resourceId": "com.whatsapp:id/registration_phone"
-                }
-            ],
-            "action": "input",
-            "dynamic_text_key": "phone_number",
             "skip_allowed": true,
             "version": "SHARED"
         },
