@@ -161,7 +161,7 @@
                 }
             ],
             "action": "click",
-            "skip_allowed": true,
+            "skip_allowed": false,
             "version": "SHARED"
         },
         {
