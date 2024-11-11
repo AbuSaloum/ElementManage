@@ -1,7 +1,7 @@
 {
     "sequence": [
         {
-            "name": "test2",
+            "name": "test23",
             "trigger_identifiers": [
                 {
                     "name": "Yasir Jarvis",
@@ -17,7 +17,7 @@
             "action": "result",
             "skip_allowed": true,
             "version": "test",
-            "state_code": "11",
+            "state_code": "113",
             "status": "failure",
             "reason": "tte",
             "conditions": [
