@@ -157,7 +157,7 @@
             "action_identifiers": [
                 {
                     "name": "verify_another_way_button",
-                    "resourceId": "com.whatsapp:id/secondary_button"
+                    "text": "VERIFY ANOTHER WAY"
                 }
             ],
             "action": "click",
