@@ -2,18 +2,6 @@
     "sequence": [
         {
             "name": "test23",
-            "trigger_identifiers": [
-                {
-                    "name": "Yasir Jarvis",
-                    "resourceId": "tttt2222"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "Nomlanga Rivas",
-                    "xpath": "Eveniet facilis qui"
-                }
-            ],
             "action": "result-check",
             "skip_allowed": true,
             "version": "test",
