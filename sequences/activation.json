@@ -202,7 +202,7 @@
         },
         {
             "name": "coudnt_send_sms",
-            "action": "result-check",
+            "action": "result_check",
             "skip_allowed": false,
             "version": "SHARED",
             "state_code": "1COUDNT_SEND_SMS_FAILURE",
