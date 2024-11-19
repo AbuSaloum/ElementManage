@@ -160,7 +160,7 @@
                     "text": "VERIFY ANOTHER WAY"
                 }
             ],
-            "action": "click",
+            "action": "find_and_click",
             "skip_allowed": false,
             "version": "SHARED"
         },
