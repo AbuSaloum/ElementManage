@@ -14,7 +14,7 @@
                     "xpath": "Eveniet facilis qui"
                 }
             ],
-            "action": "result",
+            "action": "result-check",
             "skip_allowed": true,
             "version": "test",
             "state_code": "113",
