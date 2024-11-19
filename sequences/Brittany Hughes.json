@@ -2,8 +2,20 @@
     "sequence": [
         {
             "name": "test23",
-            "action": "result-check",
-            "skip_allowed": true,
+            "trigger_identifiers": [
+                {
+                    "name": "Nomlanga Rivas",
+                    "xpath": "Eveniet facilis qui"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "Nomlanga Rivas",
+                    "xpath": "Eveniet facilis qui"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": false,
             "version": "test",
             "state_code": "113",
             "status": "failure",
