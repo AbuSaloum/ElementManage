@@ -53,35 +53,24 @@
         },
         {
             "name": "mar",
-            "action": "result",
+            "trigger_identifiers": [
+                {
+                    "name": "Nomlanga Rivas",
+                    "xpath": "Eveniet facilis qui"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "Nomlanga Rivas",
+                    "xpath": "Eveniet facilis qui"
+                }
+            ],
+            "action": "click",
             "skip_allowed": true,
             "version": "mar",
             "state_code": "22",
             "status": "success",
-            "reason": "mar",
-            "conditions": [
-                {
-                    "operator": "OR",
-                    "identifiers": [
-                        {
-                            "name": "Nomlanga Rivas",
-                            "xpath": "Eveniet facilis qui"
-                        },
-                        {
-                            "name": "Sage Rowe",
-                            "accessibility_id": "Duis fugiat quia ex "
-                        },
-                        {
-                            "name": "Xenos Jones",
-                            "resourceId": "Ut illum ea tenetur"
-                        },
-                        {
-                            "name": "Yasir Jarvis",
-                            "resourceId": "tttt2222"
-                        }
-                    ]
-                }
-            ]
+            "reason": "mar"
         },
         {
             "name": "eeemmm",
