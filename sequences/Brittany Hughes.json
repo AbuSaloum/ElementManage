@@ -1,26 +1,6 @@
 {
     "sequence": [
         {
-            "name": "tttt",
-            "action": "result-check",
-            "skip_allowed": false,
-            "version": "SHARED",
-            "state_code": "2",
-            "status": "success",
-            "reason": "2",
-            "conditions": [
-                {
-                    "operator": "OR",
-                    "identifiers": [
-                        {
-                            "name": "Nomlanga Rivas",
-                            "xpath": "Eveniet facilis qui"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "name": "test23",
             "action": "result-check",
             "skip_allowed": true,
@@ -158,6 +138,26 @@
             "state_code": "11",
             "status": "failure",
             "reason": "tte"
+        },
+        {
+            "name": "tttt",
+            "action": "result-check",
+            "skip_allowed": false,
+            "version": "SHARED",
+            "state_code": "2",
+            "status": "success",
+            "reason": "2",
+            "conditions": [
+                {
+                    "operator": "OR",
+                    "identifiers": [
+                        {
+                            "name": "Nomlanga Rivas",
+                            "xpath": "Eveniet facilis qui"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
