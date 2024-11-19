@@ -207,7 +207,18 @@
             "version": "SHARED",
             "state_code": "1",
             "status": "success",
-            "reason": "1"
+            "reason": "1",
+            "conditions": [
+                {
+                    "operator": "OR",
+                    "identifiers": [
+                        {
+                            "name": "we_coudnt_send_sms",
+                            "text": "We couldn't send an SMS to your number. Please check your number and try again in 1 hour."
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
