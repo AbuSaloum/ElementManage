@@ -210,7 +210,7 @@
             "reason": "Failed to send SMS after multiple attempts",
             "conditions": [
                 {
-                    "operator": "OR",
+                    "operator": "AND",
                     "identifiers": [
                         {
                             "name": "we_coudnt_send_sms",
