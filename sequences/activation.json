@@ -205,9 +205,9 @@
             "action": "result-check",
             "skip_allowed": false,
             "version": "SHARED",
-            "state_code": "1",
-            "status": "success",
-            "reason": "1",
+            "state_code": "1COUDNT_SEND_SMS_FAILURE",
+            "status": "failure",
+            "reason": "Failed to send SMS after multiple attempts",
             "conditions": [
                 {
                     "operator": "OR",
