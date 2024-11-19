@@ -1,24 +1,6 @@
 {
     "sequence": [
         {
-            "name": "coudnt_send_sms",
-            "trigger_identifiers": [
-                {
-                    "name": "we_coudnt_send_sms",
-                    "text": "We couldn't send an SMS to your number. Please check your number and try again in 1 hour."
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "we_coudnt_send_sms",
-                    "text": "We couldn't send an SMS to your number. Please check your number and try again in 1 hour."
-                }
-            ],
-            "action": "result_check",
-            "skip_allowed": false,
-            "version": "SHARED"
-        },
-        {
             "name": "select_language",
             "trigger_identifiers": [
                 {
@@ -216,6 +198,24 @@
             ],
             "action": "click",
             "skip_allowed": true,
+            "version": "SHARED"
+        },
+        {
+            "name": "coudnt_send_sms",
+            "trigger_identifiers": [
+                {
+                    "name": "we_coudnt_send_sms",
+                    "text": "We couldn't send an SMS to your number. Please check your number and try again in 1 hour."
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "we_coudnt_send_sms",
+                    "text": "We couldn't send an SMS to your number. Please check your number and try again in 1 hour."
+                }
+            ],
+            "action": "result_check",
+            "skip_allowed": false,
             "version": "SHARED"
         }
     ]
