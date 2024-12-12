@@ -1,6 +1,6 @@
 {
-  "file_path_in_repo": "configurations/logger.py",
-  "old_file_path_in_repo": "configurations/logger.py",
+  "file_path_in_repo": "configurations/filteredConfig.json",
+  "old_file_path_in_repo": "configurations/filteredConfig.json",
   "start_avd": [
     {
       "table": "worker_current_states",
