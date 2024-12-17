@@ -1,6 +1,24 @@
 {
     "sequence": [
         {
+            "name": "test",
+            "trigger_identifiers": [
+                {
+                    "name": "next_button",
+                    "resourceId": "com.whatsapp:id/next_button"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "next_button",
+                    "resourceId": "com.whatsapp:id/next_button"
+                }
+            ],
+            "action": "scroll_find_click",
+            "skip_allowed": true,
+            "version": "SHARED"
+        },
+        {
             "name": "select_language",
             "trigger_identifiers": [
                 {
