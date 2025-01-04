@@ -23,6 +23,10 @@ functions_parameters:
       from: base
       key: user_id
 per_operation_parameters:
+  CREATE_EMULATOR:
+    rrr:
+      from: nnn
+      key: null
   START_AVD:
     instance_id:
       from: message
