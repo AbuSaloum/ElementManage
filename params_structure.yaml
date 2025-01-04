@@ -1,4 +1,8 @@
 functions_parameters:
+  create_config_file:
+    t:
+      from: t
+      key: t
   delete_app_if_found:
     adb_port:
       from: base
