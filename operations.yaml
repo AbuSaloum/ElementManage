@@ -1,0 +1,19 @@
+operations:
+  ACTIVATE_WHATSAPP:
+    mapped_operation: activate_whatsapp
+  CONFIGURE_VPN:
+    mapped_operation: configure_vpn
+  CREATE_EMULATOR:
+    mapped_operation: create_avd
+  START_AVD:
+    mapped_operation: start_avd
+  e:
+    mapped_operation: e
+  mae:
+    mapped_operation: mae
+  marah:
+    mapped_operation: marah map
+  test:
+    mapped_operation: test
+  test2:
+    mapped_operation: test2
