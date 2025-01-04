@@ -7,5 +7,3 @@ operations:
     mapped_operation: create_avd
   START_AVD:
     mapped_operation: start_avd
-  test:
-    mapped_operation: test
