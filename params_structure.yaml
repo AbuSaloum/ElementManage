@@ -1,0 +1,29 @@
+functions_parameters:
+  delete_app_if_found:
+    adb_port:
+      from: base
+      key: adb_port
+    package_name:
+      from: message
+      key: package_name
+  push_file:
+    adb_port:
+      from: base
+      key: adb_port
+    instance_id:
+      from: message
+      key: instance_id
+    node_id:
+      from: base
+      key: node_id
+    remote_path:
+      from: static
+      value: /sdcard/Download/
+    user_id:
+      from: base
+      key: user_id
+per_operation_parameters:
+  START_AVD:
+    instance_id:
+      from: message
+      key: instance_id
