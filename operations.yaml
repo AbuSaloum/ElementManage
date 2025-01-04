@@ -7,5 +7,7 @@ operations:
     mapped_operation: create_avd
   START_AVD:
     mapped_operation: start_avd
+  marah:
+    mapped_operation: marah
   test4:
     mapped_operation: test4
