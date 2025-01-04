@@ -9,5 +9,7 @@ operations:
     mapped_operation: start_avd
   marah:
     mapped_operation: marah
+  mm:
+    mapped_operation: m
   test4:
     mapped_operation: test4
