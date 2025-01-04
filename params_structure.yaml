@@ -24,9 +24,9 @@ functions_parameters:
       key: user_id
 per_operation_parameters:
   CREATE_EMULATOR:
-    rrrr2:
-      from: nnnr
-      key: rr
+    rrr:
+      from: nnn
+      key: null
   START_AVD:
     instance_id:
       from: message
