@@ -6,10 +6,6 @@ functions_parameters:
     package_name:
       from: message
       key: package_name
-  install_apk_with_permissions:
-    r:
-      from: r
-      key: r
   push_file:
     adb_port:
       from: base
