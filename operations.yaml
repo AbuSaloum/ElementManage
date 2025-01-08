@@ -9,3 +9,5 @@ operations:
     mapped_operation: start_avd
   test:
     mapped_operation: test
+  test55:
+    mapped_operation: test55
