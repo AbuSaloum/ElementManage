@@ -1,0 +1,10 @@
+configuration/configuration.yaml:
+  record_final_state: true
+  final_success_state_code: qq
+  final_failure_state_code: q
+  apps:
+    vpn_app:
+      package_name: com.wireguard.android
+      apk_path: ./apk/wireguard.apk
+  steps_order: []
+  steps: {}
