@@ -1,0 +1,74 @@
+configuration/configuration.yaml:
+  record_final_state: true
+  final_success_state_code: k
+  final_failure_state_code: k
+  apps:
+    appTest:
+      package_name: appTest
+      apk_path: appTest
+  steps_order:
+  - u
+  - ww
+  - ee
+  - rr
+  steps:
+    ee:
+      module: utilities.helpers.avd_utils
+      function: match_avd_name
+      description: ee
+      mandatory: true
+      fail_strategy: ee
+      pre_delay: 0.0
+      post_delay: 0.0
+      ascii_enabled: true
+      record_state: true
+      send_to_exchange: true
+      start_state_code: ee
+      success_state_code: ee
+      failure_state_code: ee
+      params: {}
+    ww:
+      module: utilities.helpers.avd_utils
+      function: launch_app
+      description: ww
+      mandatory: false
+      fail_strategy: fail_operation
+      pre_delay: 4.0
+      post_delay: 45.0
+      ascii_enabled: false
+      record_state: false
+      send_to_exchange: false
+      start_state_code: erroe
+      success_state_code: erroe
+      failure_state_code: erroe
+      params: {}
+    u:
+      module: utilities.helpers.avd_utils
+      function: install_apk_with_permissions
+      description: u
+      mandatory: true
+      fail_strategy: fail_operation
+      pre_delay: 0.0
+      post_delay: 0.0
+      ascii_enabled: true
+      record_state: true
+      send_to_exchange: true
+      start_state_code: u
+      success_state_code: u
+      failure_state_code: u
+      params: {}
+    rr:
+      module: utilities.helpers.avd_utils
+      function: launch_app
+      description: rr
+      mandatory: true
+      fail_strategy: fail_operation
+      pre_delay: 2.0
+      post_delay: 2.0
+      ascii_enabled: true
+      record_state: true
+      send_to_exchange: true
+      start_state_code: e
+      success_state_code: e
+      failure_state_code: e
+      params: {}
