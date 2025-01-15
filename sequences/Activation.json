@@ -1,0 +1,22 @@
+{
+    "sequence": [
+        {
+            "name": "step1",
+            "trigger_identifiers": [
+                {
+                    "name": "Get Started",
+                    "resourceId": "im.thebot.messenger:id/login_activate"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "Get Started",
+                    "resourceId": "im.thebot.messenger:id/login_activate"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": true,
+            "version": "1"
+        }
+    ]
+}
