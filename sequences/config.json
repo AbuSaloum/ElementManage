@@ -19,24 +19,6 @@
             "version": "SHARED"
         },
         {
-            "name": "select_the_file",
-            "trigger_identifiers": [
-                {
-                    "name": "wg_file",
-                    "resourceId": "com.android.documentsui:id/icon_thumb"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "wg_file",
-                    "resourceId": "com.android.documentsui:id/icon_thumb"
-                }
-            ],
-            "action": "click",
-            "skip_allowed": false,
-            "version": "SHARED"
-        },
-        {
             "name": "switch_on_toggle",
             "trigger_identifiers": [
                 {
@@ -120,6 +102,24 @@
                 {
                     "name": "image_button",
                     "className": "android.widget.ImageButton"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": false,
+            "version": "SHARED"
+        },
+        {
+            "name": "select_the_file",
+            "trigger_identifiers": [
+                {
+                    "name": "wg_file",
+                    "resourceId": "com.android.documentsui:id/icon_thumb"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "wg_file",
+                    "resourceId": "com.android.documentsui:id/icon_thumb"
                 }
             ],
             "action": "click",
