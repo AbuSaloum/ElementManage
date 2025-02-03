@@ -17,6 +17,24 @@
             "action": "click",
             "skip_allowed": false,
             "version": "SHARED"
+        },
+        {
+            "name": "click_import_from_file",
+            "trigger_identifiers": [
+                {
+                    "name": "import_from_file",
+                    "resourceId": "com.wireguard.android:id/create_from_file"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "import_from_file",
+                    "resourceId": "com.wireguard.android:id/create_from_file"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": false,
+            "version": "SHARED"
         }
     ]
 }
