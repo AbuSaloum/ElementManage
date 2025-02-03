@@ -1,0 +1,22 @@
+{
+    "sequence": [
+        {
+            "name": "Click_add",
+            "trigger_identifiers": [
+                {
+                    "name": "add_button",
+                    "resourceId": "com.wireguard.android:id/create_fab"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "add_button",
+                    "resourceId": "com.wireguard.android:id/create_fab"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": false,
+            "version": "SHARED"
+        }
+    ]
+}
