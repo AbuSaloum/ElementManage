@@ -136,6 +136,24 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "aaa",
+            "trigger_identifiers": [
+                {
+                    "name": "Nomlanga Rivas",
+                    "xpath": "Eveniet facilis qui"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "Sage Rowe",
+                    "accessibility_id": "Duis fugiat quia ex "
+                }
+            ],
+            "action": "check",
+            "skip_allowed": true,
+            "version": "a"
         }
     ]
 }
