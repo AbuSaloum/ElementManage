@@ -1,7 +1,7 @@
 {
     "sequence": [
         {
-            "name": "step1",
+            "name": "ttt",
             "trigger_identifiers": [
                 {
                     "name": "Get Started",
@@ -16,7 +16,7 @@
             ],
             "action": "click",
             "skip_allowed": true,
-            "version": "1"
+            "version": "eremmm"
         }
     ]
 }
