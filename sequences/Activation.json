@@ -1,7 +1,7 @@
 {
     "sequence": [
         {
-            "name": "ttt",
+            "name": "ww",
             "trigger_identifiers": [
                 {
                     "name": "Get Started",
@@ -15,8 +15,8 @@
                 }
             ],
             "action": "click",
-            "skip_allowed": true,
-            "version": "eremmm"
+            "skip_allowed": false,
+            "version": "SHARED"
         }
     ]
 }
