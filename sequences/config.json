@@ -19,6 +19,24 @@
             "version": "SHARED"
         },
         {
+            "name": "select_the_file",
+            "trigger_identifiers": [
+                {
+                    "name": "wg_file",
+                    "resourceId": "com.android.documentsui:id/icon_thumb"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "wg_file",
+                    "resourceId": "com.android.documentsui:id/icon_thumb"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": false,
+            "version": "SHARED"
+        },
+        {
             "name": "switch_on_toggle",
             "trigger_identifiers": [
                 {
@@ -55,42 +73,6 @@
             "version": "SHARED"
         },
         {
-            "name": "click_dir_menu",
-            "trigger_identifiers": [
-                {
-                    "name": "image_button",
-                    "className": "android.widget.ImageButton"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "image_button",
-                    "className": "android.widget.ImageButton"
-                }
-            ],
-            "action": "click",
-            "skip_allowed": false,
-            "version": "SHARED"
-        },
-        {
-            "name": "select_the_file",
-            "trigger_identifiers": [
-                {
-                    "name": "wg_file",
-                    "resourceId": "com.android.documentsui:id/icon_thumb"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "wg_file",
-                    "resourceId": "com.android.documentsui:id/icon_thumb"
-                }
-            ],
-            "action": "click",
-            "skip_allowed": false,
-            "version": "SHARED"
-        },
-        {
             "name": "Click_add",
             "trigger_identifiers": [
                 {
@@ -120,6 +102,24 @@
                 {
                     "name": "import_from_file",
                     "resourceId": "com.wireguard.android:id/create_from_file"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": false,
+            "version": "SHARED"
+        },
+        {
+            "name": "click_dir_menu",
+            "trigger_identifiers": [
+                {
+                    "name": "image_button",
+                    "className": "android.widget.ImageButton"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "image_button",
+                    "className": "android.widget.ImageButton"
                 }
             ],
             "action": "click",
