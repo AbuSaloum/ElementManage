@@ -19,35 +19,17 @@
             "version": "SHARED"
         },
         {
-            "name": "click_import_from_file",
+            "name": "switch_on_toggle",
             "trigger_identifiers": [
                 {
-                    "name": "import_from_file",
-                    "resourceId": "com.wireguard.android:id/create_from_file"
+                    "name": "wg_toggel",
+                    "resourceId": "com.wireguard.android:id/tunnel_switch"
                 }
             ],
             "action_identifiers": [
                 {
-                    "name": "import_from_file",
-                    "resourceId": "com.wireguard.android:id/create_from_file"
-                }
-            ],
-            "action": "click",
-            "skip_allowed": false,
-            "version": "SHARED"
-        },
-        {
-            "name": "click_dir_menu",
-            "trigger_identifiers": [
-                {
-                    "name": "image_button",
-                    "className": "android.widget.ImageButton"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "image_button",
-                    "className": "android.widget.ImageButton"
+                    "name": "wg_toggel",
+                    "resourceId": "com.wireguard.android:id/tunnel_switch"
                 }
             ],
             "action": "click",
@@ -73,6 +55,24 @@
             "version": "SHARED"
         },
         {
+            "name": "click_dir_menu",
+            "trigger_identifiers": [
+                {
+                    "name": "image_button",
+                    "className": "android.widget.ImageButton"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "image_button",
+                    "className": "android.widget.ImageButton"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": false,
+            "version": "SHARED"
+        },
+        {
             "name": "select_the_file",
             "trigger_identifiers": [
                 {
@@ -91,24 +91,6 @@
             "version": "SHARED"
         },
         {
-            "name": "switch_on_toggle",
-            "trigger_identifiers": [
-                {
-                    "name": "wg_toggel",
-                    "resourceId": "com.wireguard.android:id/tunnel_switch"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "wg_toggel",
-                    "resourceId": "com.wireguard.android:id/tunnel_switch"
-                }
-            ],
-            "action": "click",
-            "skip_allowed": false,
-            "version": "SHARED"
-        },
-        {
             "name": "Click_add",
             "trigger_identifiers": [
                 {
@@ -120,6 +102,24 @@
                 {
                     "name": "add_button",
                     "resourceId": "com.wireguard.android:id/create_fab"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": false,
+            "version": "SHARED"
+        },
+        {
+            "name": "click_import_from_file",
+            "trigger_identifiers": [
+                {
+                    "name": "import_from_file",
+                    "resourceId": "com.wireguard.android:id/create_from_file"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "import_from_file",
+                    "resourceId": "com.wireguard.android:id/create_from_file"
                 }
             ],
             "action": "click",
