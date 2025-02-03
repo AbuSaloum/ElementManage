@@ -125,24 +125,6 @@
             "action": "click",
             "skip_allowed": true,
             "version": "SHARED"
-        },
-        {
-            "name": "coudnt_send_sms",
-            "trigger_identifiers": [
-                {
-                    "name": "connection_request",
-                    "resourceId": "android:id/button1"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "connection_request",
-                    "resourceId": "android:id/button1"
-                }
-            ],
-            "action": "click",
-            "skip_allowed": false,
-            "version": "SHARED"
         }
     ]
 }
