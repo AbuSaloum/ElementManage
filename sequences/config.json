@@ -35,6 +35,24 @@
             "action": "click",
             "skip_allowed": false,
             "version": "SHARED"
+        },
+        {
+            "name": "click_dir_menu",
+            "trigger_identifiers": [
+                {
+                    "name": "image_button",
+                    "className": "android.widget.ImageButton"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "image_button",
+                    "className": "android.widget.ImageButton"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": false,
+            "version": "SHARED"
         }
     ]
 }
