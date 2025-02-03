@@ -1,24 +1,6 @@
 {
     "sequence": [
         {
-            "name": "select_Downloads",
-            "trigger_identifiers": [
-                {
-                    "name": "Downloads",
-                    "text": "Downloads"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "Downloads",
-                    "text": "Downloads"
-                }
-            ],
-            "action": "click",
-            "skip_allowed": false,
-            "version": "SHARED"
-        },
-        {
             "name": "Click_add",
             "trigger_identifiers": [
                 {
@@ -66,6 +48,24 @@
                 {
                     "name": "image_button",
                     "className": "android.widget.ImageButton"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": false,
+            "version": "SHARED"
+        },
+        {
+            "name": "select_Downloads",
+            "trigger_identifiers": [
+                {
+                    "name": "Downloads",
+                    "text": "Downloads"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "Downloads",
+                    "text": "Downloads"
                 }
             ],
             "action": "click",
