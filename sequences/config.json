@@ -19,24 +19,6 @@
             "version": "SHARED"
         },
         {
-            "name": "confirm_ok_button",
-            "trigger_identifiers": [
-                {
-                    "name": "connection_request",
-                    "resourceId": "android:id/button1"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "connection_request",
-                    "resourceId": "android:id/button1"
-                }
-            ],
-            "action": "click",
-            "skip_allowed": true,
-            "version": "SHARED"
-        },
-        {
             "name": "Click_add",
             "trigger_identifiers": [
                 {
@@ -124,6 +106,24 @@
             ],
             "action": "click",
             "skip_allowed": false,
+            "version": "SHARED"
+        },
+        {
+            "name": "confirm_ok_button",
+            "trigger_identifiers": [
+                {
+                    "name": "connection_request",
+                    "resourceId": "android:id/button1"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "connection_request",
+                    "resourceId": "android:id/button1"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": true,
             "version": "SHARED"
         }
     ]
