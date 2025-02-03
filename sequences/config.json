@@ -41,13 +41,13 @@
             "trigger_identifiers": [
                 {
                     "name": "image_button",
-                    "resourceId": "com.android.documentsui:id/toolbar"
+                    "className": "com.android.documentsui:id/toolbar"
                 }
             ],
             "action_identifiers": [
                 {
                     "name": "image_button",
-                    "resourceId": "com.android.documentsui:id/toolbar"
+                    "className": "com.android.documentsui:id/toolbar"
                 }
             ],
             "action": "click",
