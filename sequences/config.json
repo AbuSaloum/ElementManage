@@ -89,6 +89,24 @@
             "action": "click",
             "skip_allowed": false,
             "version": "SHARED"
+        },
+        {
+            "name": "switch_on_toggle",
+            "trigger_identifiers": [
+                {
+                    "name": "wg_toggel",
+                    "resourceId": "com.wireguard.android:id/tunnel_switch"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "wg_toggel",
+                    "resourceId": "com.wireguard.android:id/tunnel_switch"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": false,
+            "version": "SHARED"
         }
     ]
 }
