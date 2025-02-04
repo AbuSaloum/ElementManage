@@ -77,13 +77,13 @@
             "trigger_identifiers": [
                 {
                     "name": "wg_file",
-                    "resourceId": "com.android.documentsui:id/icon_thumb"
+                    "resourceId": "com.google.android.documentsui:id/icon_mime_lg"
                 }
             ],
             "action_identifiers": [
                 {
                     "name": "wg_file",
-                    "resourceId": "com.android.documentsui:id/icon_thumb"
+                    "resourceId": "com.google.android.documentsui:id/icon_mime_lg"
                 }
             ],
             "action": "click",
