@@ -174,8 +174,8 @@
             ],
             "action_identifiers": [
                 {
-                    "name": "sms",
-                    "resourceId": "com.whatsapp:id/reg_method_checkbox"
+                    "name": "SMS",
+                    "text": "Receive SMS"
                 }
             ],
             "action": "click",
