@@ -17,6 +17,25 @@
             "action": "click",
             "skip_allowed": false,
             "version": "SHARED"
+        },
+        {
+            "name": "input_server_ip",
+            "trigger_identifiers": [
+                {
+                    "name": "input_server_ip",
+                    "resourceId": "android:id/edit"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "input_server_ip",
+                    "resourceId": "android:id/edit"
+                }
+            ],
+            "action": "input",
+            "dynamic_text_key": "server_ip",
+            "skip_allowed": false,
+            "version": "SHARED"
         }
     ]
 }
