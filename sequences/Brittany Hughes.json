@@ -160,13 +160,13 @@
             "trigger_identifiers": [
                 {
                     "name": "tttt",
-                    "text": "tttt"
+                    "text": "."
                 }
             ],
             "action_identifiers": [
                 {
                     "name": "tttt",
-                    "text": "tttt"
+                    "text": "."
                 }
             ],
             "action": "click",
