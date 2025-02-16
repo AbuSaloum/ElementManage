@@ -69,8 +69,7 @@
                     "text": "Server Port"
                 }
             ],
-            "action": "input",
-            "dynamic_text_key": "server_port",
+            "action": "click",
             "skip_allowed": false,
             "version": "SHARED"
         }
