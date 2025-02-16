@@ -154,6 +154,24 @@
             "action": "check",
             "skip_allowed": true,
             "version": "a"
+        },
+        {
+            "name": "tttt2",
+            "trigger_identifiers": [
+                {
+                    "name": "tttt",
+                    "text": "tttt"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "tttt",
+                    "text": "tttt"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": true,
+            "version": "SHARED"
         }
     ]
 }
