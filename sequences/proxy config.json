@@ -255,6 +255,24 @@
             "action": "click",
             "skip_allowed": false,
             "version": "SHARED"
+        },
+        {
+            "name": "click_final_ok",
+            "trigger_identifiers": [
+                {
+                    "name": "clicking_ok",
+                    "resourceId": "android:id/button1"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "clicking_ok",
+                    "resourceId": "android:id/button1"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": false,
+            "version": "SHARED"
         }
     ]
 }
