@@ -179,6 +179,31 @@
             "action": "click",
             "skip_allowed": true,
             "version": "SHARED"
+        },
+        {
+            "name": "nnn2",
+            "trigger_identifiers": [
+                {
+                    "name": "nn2",
+                    "text": "nn\u06492"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "nn",
+                    "possible_texts": [
+                        "SMS",
+                        "Receive SMS"
+                    ],
+                    "possible_resourceIds": [
+                        "com.whatsapp:id/sms_text_id",
+                        "com.whatsapp:id/sms_option_id"
+                    ]
+                }
+            ],
+            "action": "click",
+            "skip_allowed": false,
+            "version": "SHARED"
         }
     ]
 }
