@@ -161,7 +161,7 @@
                 }
             ],
             "action": "input",
-            "dynamic_text_key": "user_name",
+            "dynamic_text_key": "proxy_username",
             "skip_allowed": false,
             "version": "SHARED"
         },
