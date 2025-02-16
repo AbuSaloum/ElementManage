@@ -1,0 +1,22 @@
+{
+    "sequence": [
+        {
+            "name": "click_server_ip",
+            "trigger_identifiers": [
+                {
+                    "name": "Server_IP",
+                    "text": "Server IP"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "Server_IP",
+                    "text": "Server IP"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": false,
+            "version": "SHARED"
+        }
+    ]
+}
