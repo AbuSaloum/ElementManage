@@ -164,6 +164,24 @@
             "dynamic_text_key": "user_name",
             "skip_allowed": false,
             "version": "SHARED"
+        },
+        {
+            "name": "click_ok_username",
+            "trigger_identifiers": [
+                {
+                    "name": "clicking_ok_",
+                    "resourceId": "android:id/button1"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "clicking_ok_",
+                    "resourceId": "android:id/button1"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": false,
+            "version": "SHARED"
         }
     ]
 }
