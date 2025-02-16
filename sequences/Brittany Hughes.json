@@ -159,14 +159,21 @@
             "name": "tttt2",
             "trigger_identifiers": [
                 {
-                    "name": "tttt",
-                    "text": "."
+                    "name": "nn",
+                    "possible_texts": [
+                        "[\"SMS\"",
+                        " \"Receive SMS\"]"
+                    ],
+                    "possible_resourceIds": [
+                        "[ \"com.whatsapp:id/sms_text_id\"",
+                        " \"com.whatsapp:id/sms_option_id\"]"
+                    ]
                 }
             ],
             "action_identifiers": [
                 {
-                    "name": "tttt",
-                    "text": "."
+                    "name": "InputField",
+                    "xpath": "Submit"
                 }
             ],
             "action": "click",
