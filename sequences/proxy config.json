@@ -145,6 +145,25 @@
             "action": "click",
             "skip_allowed": false,
             "version": "SHARED"
+        },
+        {
+            "name": "input_username",
+            "trigger_identifiers": [
+                {
+                    "name": "adding_username",
+                    "resourceId": "android:id/edit"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "adding_username",
+                    "resourceId": "android:id/edit"
+                }
+            ],
+            "action": "input",
+            "dynamic_text_key": "user_name",
+            "skip_allowed": false,
+            "version": "SHARED"
         }
     ]
 }
