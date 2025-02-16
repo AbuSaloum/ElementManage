@@ -237,6 +237,24 @@
             "action": "click",
             "skip_allowed": false,
             "version": "SHARED"
+        },
+        {
+            "name": "switch_toggle",
+            "trigger_identifiers": [
+                {
+                    "name": "clicking_on_toggle ",
+                    "resourceId": "net.typeblog.socks:id/switch_action_button"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "clicking_on_toggle ",
+                    "resourceId": "net.typeblog.socks:id/switch_action_button"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": false,
+            "version": "SHARED"
         }
     ]
 }
