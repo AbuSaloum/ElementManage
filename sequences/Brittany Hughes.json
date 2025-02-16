@@ -173,7 +173,7 @@
             "action_identifiers": [
                 {
                     "name": "InputField",
-                    "xpath": "Submit"
+                    "className": "Submit"
                 }
             ],
             "action": "click",
