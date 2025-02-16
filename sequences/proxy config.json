@@ -54,6 +54,25 @@
             "action": "click",
             "skip_allowed": false,
             "version": "SHARED"
+        },
+        {
+            "name": "input_server_port",
+            "trigger_identifiers": [
+                {
+                    "name": "server_port",
+                    "text": "Server Port"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "server_port",
+                    "text": "Server Port"
+                }
+            ],
+            "action": "input",
+            "dynamic_text_key": "server_ip",
+            "skip_allowed": false,
+            "version": "SHARED"
         }
     ]
 }
