@@ -204,6 +204,24 @@
             "action": "click",
             "skip_allowed": false,
             "version": "SHARED"
+        },
+        {
+            "name": "class",
+            "trigger_identifiers": [
+                {
+                    "name": "InputField",
+                    "className": "Submit"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "Dustin Love",
+                    "accessibility_id": "Culpa dolore omnis v"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": false,
+            "version": "SHARED"
         }
     ]
 }
