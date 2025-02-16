@@ -219,6 +219,24 @@
             "dynamic_text_key": "password",
             "skip_allowed": false,
             "version": "SHARED"
+        },
+        {
+            "name": "click_ok_password",
+            "trigger_identifiers": [
+                {
+                    "name": "clicking_ok",
+                    "resourceId": "android:id/button1"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "clicking_ok",
+                    "resourceId": "android:id/button1"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": false,
+            "version": "SHARED"
         }
     ]
 }
