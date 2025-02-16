@@ -88,7 +88,7 @@
                 }
             ],
             "action": "input",
-            "dynamic_text_key": "server_port",
+            "dynamic_text_key": "proxy_port",
             "skip_allowed": false,
             "version": "SHARED"
         },
