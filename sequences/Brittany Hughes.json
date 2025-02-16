@@ -173,6 +173,7 @@
             "action_identifiers": [
                 {
                     "name": "InputField",
+                    "description": "test",
                     "className": "Submit"
                 }
             ],
@@ -210,6 +211,7 @@
             "trigger_identifiers": [
                 {
                     "name": "InputField",
+                    "description": "test",
                     "className": "Submit"
                 }
             ],
