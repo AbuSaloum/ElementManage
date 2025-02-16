@@ -33,7 +33,7 @@
                 }
             ],
             "action": "input",
-            "dynamic_text_key": "server_ip",
+            "dynamic_text_key": "proxy_ip",
             "skip_allowed": false,
             "version": "SHARED"
         },
