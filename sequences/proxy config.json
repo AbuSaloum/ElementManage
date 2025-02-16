@@ -70,7 +70,7 @@
                 }
             ],
             "action": "input",
-            "dynamic_text_key": "server_ip",
+            "dynamic_text_key": "server_port",
             "skip_allowed": false,
             "version": "SHARED"
         }
