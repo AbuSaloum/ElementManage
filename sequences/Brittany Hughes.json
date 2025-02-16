@@ -161,12 +161,12 @@
                 {
                     "name": "nn",
                     "possible_texts": [
-                        "[\"SMS\"",
-                        " \"Receive SMS\"]"
+                        "SMS",
+                        "Receive SMS"
                     ],
                     "possible_resourceIds": [
-                        "[ \"com.whatsapp:id/sms_text_id\"",
-                        " \"com.whatsapp:id/sms_option_id\"]"
+                        "com.whatsapp:id/sms_text_id",
+                        "com.whatsapp:id/sms_option_id"
                     ]
                 }
             ],
