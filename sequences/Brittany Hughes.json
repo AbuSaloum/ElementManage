@@ -156,6 +156,24 @@
             "version": "a"
         },
         {
+            "name": "vvv",
+            "trigger_identifiers": [
+                {
+                    "name": "Nomlanga Rivas",
+                    "xpath": "Eveniet facilis qui"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "Sage Rowe",
+                    "accessibility_id": "Duis fugiat quia ex "
+                }
+            ],
+            "action": "click",
+            "skip_allowed": true,
+            "version": "SHARED"
+        },
+        {
             "name": "tttt2",
             "trigger_identifiers": [
                 {
@@ -224,6 +242,32 @@
             "action": "click",
             "skip_allowed": false,
             "version": "SHARED"
+        },
+        {
+            "name": "time",
+            "trigger_identifiers": [
+                {
+                    "name": "Nomlanga Rivas",
+                    "xpath": "Eveniet facilis qui"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "Sage Rowe",
+                    "accessibility_id": "Duis fugiat quia ex "
+                }
+            ],
+            "action": "click",
+            "skip_allowed": true,
+            "version": "SHARED",
+            "post_click_check": {
+                "timeout": 10,
+                "disappear": [
+                    {
+                        "resourceId": "com.whatsapp:id/registration_submit"
+                    }
+                ]
+            }
         }
     ]
 }
