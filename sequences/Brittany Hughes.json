@@ -261,10 +261,10 @@
             "skip_allowed": true,
             "version": "SHARED",
             "post_click_check": {
-                "timeout": 100,
+                "timeout": 10,
                 "disappear": [
                     {
-                        "resourceId2": "com.whatsapp:id/registration_submit"
+                        "resourceId": "com.whatsapp:id/registration_submit"
                     }
                 ]
             }
