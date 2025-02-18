@@ -23,13 +23,13 @@
             "trigger_identifiers": [
                 {
                     "name": "input_server_ip",
-                    "resourceId": "android:id/edit"
+                    "resourceId": "android:id/edittext_container"
                 }
             ],
             "action_identifiers": [
                 {
                     "name": "input_server_ip",
-                    "resourceId": "android:id/edit"
+                    "resourceId": "android:id/edittext_container"
                 }
             ],
             "action": "input",
