@@ -1,0 +1,77 @@
+{
+    "sequence": [
+        {
+            "name": "eeemmm",
+            "trigger_identifiers": [
+                {
+                    "name": "Nomlanga Rivas",
+                    "xpath": "Eveniet facilis qui"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "Gary Gill",
+                    "accessibility_id": "Dignissimos voluptat"
+                }
+            ],
+            "action": "input",
+            "dynamic_text_key": "trer",
+            "skip_allowed": true,
+            "version": "test"
+        },
+        {
+            "name": "rr",
+            "trigger_identifiers": [
+                {
+                    "name": "Nomlanga Rivas",
+                    "xpath": "Eveniet facilis qui"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "Gary Gill",
+                    "accessibility_id": "Dignissimos voluptat"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": true,
+            "version": "rr"
+        },
+        {
+            "name": "ABUSALOUMdd5s",
+            "trigger_identifiers": [
+                {
+                    "name": "Nomlanga Rivas",
+                    "xpath": "Eveniet facilis qui"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "Gary Gill",
+                    "accessibility_id": "Dignissimos voluptat"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": true,
+            "version": "rr"
+        },
+        {
+            "name": "mara",
+            "trigger_identifiers": [
+                {
+                    "name": "Nomlanga Rivas",
+                    "xpath": "Eveniet facilis qui"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "Gary Gill",
+                    "accessibility_id": "Dignissimos voluptat"
+                }
+            ],
+            "action": "scroll_find_click",
+            "skip_allowed": true,
+            "version": "ww"
+        }
+    ]
+}
