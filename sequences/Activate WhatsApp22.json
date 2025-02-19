@@ -88,10 +88,10 @@
                 }
             ],
             "action": "scroll_find_click",
-            "scroll_start_percentage": 1.5,
-            "scroll_end_percentage": 2.5,
-            "max_scroll_attempts": 0.6,
-            "scroll_sleep": 0.8,
+            "scroll_start_percentage": 1.8,
+            "scroll_end_percentage": 2.8,
+            "max_scroll_attempts": 0.8,
+            "scroll_sleep": 0.6,
             "skip_allowed": true,
             "version": "wq"
         }
