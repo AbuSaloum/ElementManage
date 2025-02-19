@@ -1,24 +1,6 @@
 {
     "sequence": [
         {
-            "name": "click_ok",
-            "trigger_identifiers": [
-                {
-                    "name": "ok_server_ip",
-                    "resourceId": "android:id/button1"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "ok_server_ip",
-                    "resourceId": "android:id/button1"
-                }
-            ],
-            "action": "click",
-            "skip_allowed": false,
-            "version": "SHARED"
-        },
-        {
             "name": "input_server_port",
             "trigger_identifiers": [
                 {
