@@ -20,24 +20,6 @@
             "version": "SHARED"
         },
         {
-            "name": "click_on_user&password",
-            "trigger_identifiers": [
-                {
-                    "name": "username_password_page",
-                    "text": "Username & Password Authentication"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "username_password_page",
-                    "text": "Username & Password Authentication"
-                }
-            ],
-            "action": "scroll_find_click",
-            "skip_allowed": false,
-            "version": "SHARED"
-        },
-        {
             "name": "input_username",
             "trigger_identifiers": [
                 {
