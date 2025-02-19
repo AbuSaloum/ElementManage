@@ -111,25 +111,6 @@
             "version": "SHARED"
         },
         {
-            "name": "input_password",
-            "trigger_identifiers": [
-                {
-                    "name": "adding_password",
-                    "resourceId": "android:id/edit"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "adding_password",
-                    "resourceId": "android:id/edit"
-                }
-            ],
-            "action": "input",
-            "dynamic_text_key": "proxy_password",
-            "skip_allowed": false,
-            "version": "SHARED"
-        },
-        {
             "name": "click_ok_password",
             "trigger_identifiers": [
                 {
