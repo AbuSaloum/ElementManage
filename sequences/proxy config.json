@@ -38,24 +38,6 @@
             "version": "SHARED"
         },
         {
-            "name": "click_ok_port",
-            "trigger_identifiers": [
-                {
-                    "name": "ok_server_port",
-                    "resourceId": "android:id/button1"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "ok_server_port",
-                    "resourceId": "android:id/button1"
-                }
-            ],
-            "action": "click",
-            "skip_allowed": false,
-            "version": "SHARED"
-        },
-        {
             "name": "click_on_user&password",
             "trigger_identifiers": [
                 {
