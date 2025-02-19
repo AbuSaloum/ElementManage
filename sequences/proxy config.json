@@ -124,7 +124,7 @@
                     "text": "Username & Password Authentication"
                 }
             ],
-            "action": "click",
+            "action": "scroll_find_click",
             "skip_allowed": false,
             "version": "SHARED"
         },
