@@ -1,25 +1,6 @@
 {
     "sequence": [
         {
-            "name": "input_server_ip",
-            "trigger_identifiers": [
-                {
-                    "name": "input_server_ip",
-                    "resourceId": "android:id/edittext_container"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "input_server_ip",
-                    "resourceId": "android:id/edittext_container"
-                }
-            ],
-            "action": "input",
-            "dynamic_text_key": "proxy_ip",
-            "skip_allowed": false,
-            "version": "SHARED"
-        },
-        {
             "name": "click_ok",
             "trigger_identifiers": [
                 {
