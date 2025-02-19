@@ -1,25 +1,6 @@
 {
     "sequence": [
         {
-            "name": "input_username",
-            "trigger_identifiers": [
-                {
-                    "name": "adding_username",
-                    "resourceId": "android:id/edit"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "adding_username",
-                    "resourceId": "android:id/edit"
-                }
-            ],
-            "action": "input",
-            "dynamic_text_key": "proxy_username",
-            "skip_allowed": false,
-            "version": "SHARED"
-        },
-        {
             "name": "click_on_password",
             "trigger_identifiers": [
                 {
