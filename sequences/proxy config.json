@@ -38,24 +38,6 @@
             "version": "SHARED"
         },
         {
-            "name": "click_on_username",
-            "trigger_identifiers": [
-                {
-                    "name": "clicking_on_username",
-                    "text": "Username"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "clicking_on_username",
-                    "text": "Username"
-                }
-            ],
-            "action": "click",
-            "skip_allowed": false,
-            "version": "SHARED"
-        },
-        {
             "name": "input_username",
             "trigger_identifiers": [
                 {
