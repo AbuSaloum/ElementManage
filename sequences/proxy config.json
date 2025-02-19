@@ -1,24 +1,6 @@
 {
     "sequence": [
         {
-            "name": "click_on_password",
-            "trigger_identifiers": [
-                {
-                    "name": "clicking_on_password",
-                    "text": "Password"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "clicking_on_password",
-                    "text": "Password"
-                }
-            ],
-            "action": "click",
-            "skip_allowed": false,
-            "version": "SHARED"
-        },
-        {
             "name": "click_final_ok",
             "trigger_identifiers": [
                 {
