@@ -1,21 +1,57 @@
 {
     "sequence": [
         {
-            "name": "click_final_ok",
+            "name": "click_server_ip",
             "trigger_identifiers": [
                 {
-                    "name": "clicking_ok",
+                    "name": "Server_IP",
+                    "text": "Server IP"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "Server_IP",
+                    "text": "Server IP"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": false,
+            "version": "SHARED"
+        },
+        {
+            "name": "test",
+            "trigger_identifiers": [
+                {
+                    "name": "ok_server_ip",
                     "resourceId": "android:id/button1"
                 }
             ],
             "action_identifiers": [
                 {
-                    "name": "clicking_ok",
+                    "name": "ok_server_ip",
                     "resourceId": "android:id/button1"
                 }
             ],
             "action": "click",
-            "skip_allowed": false,
+            "skip_allowed": true,
+            "version": "SHARED"
+        },
+        {
+            "name": "tttttt",
+            "trigger_identifiers": [
+                {
+                    "name": "username_password_page",
+                    "text": "Username & Password Authentication"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "username_password_page",
+                    "text": "Username & Password Authentication"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": true,
             "version": "SHARED"
         }
     ]
