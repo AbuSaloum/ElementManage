@@ -19,7 +19,26 @@
             "version": "SHARED"
         },
         {
-            "name": "test",
+            "name": "input_server_ip",
+            "trigger_identifiers": [
+                {
+                    "name": "input_server_ip",
+                    "resourceId": "android:id/edittext_container"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "input_server_ip",
+                    "resourceId": "android:id/edittext_container"
+                }
+            ],
+            "action": "input",
+            "dynamic_text_key": "serverip",
+            "skip_allowed": false,
+            "version": "SHARED"
+        },
+        {
+            "name": "ok_server_ip",
             "trigger_identifiers": [
                 {
                     "name": "ok_server_ip",
@@ -33,7 +52,7 @@
                 }
             ],
             "action": "click",
-            "skip_allowed": true,
+            "skip_allowed": false,
             "version": "SHARED"
         },
         {
