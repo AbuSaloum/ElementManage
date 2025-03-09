@@ -54,24 +54,6 @@
             "action": "click",
             "skip_allowed": false,
             "version": "SHARED"
-        },
-        {
-            "name": "tttttt",
-            "trigger_identifiers": [
-                {
-                    "name": "username_password_page",
-                    "text": "Username & Password Authentication"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "username_password_page",
-                    "text": "Username & Password Authentication"
-                }
-            ],
-            "action": "click",
-            "skip_allowed": true,
-            "version": "SHARED"
         }
     ]
 }
