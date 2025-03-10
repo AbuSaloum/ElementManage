@@ -277,6 +277,25 @@
             "action": "click",
             "skip_allowed": false,
             "version": "SHARED"
+        },
+        {
+            "name": "tam",
+            "trigger_identifiers": [
+                {
+                    "name": "server_port",
+                    "text": "Server Port"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "server_port",
+                    "text": "Server Port"
+                }
+            ],
+            "action": "input",
+            "dynamic_text_key": "tre",
+            "skip_allowed": true,
+            "version": "v4"
         }
     ]
 }
