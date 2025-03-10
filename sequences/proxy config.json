@@ -293,7 +293,7 @@
                 }
             ],
             "action": "input",
-            "dynamic_text_key": "test2",
+            "dynamic_text_key": "test",
             "skip_allowed": true,
             "version": "v2"
         }
