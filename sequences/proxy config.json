@@ -277,25 +277,6 @@
             "action": "click",
             "skip_allowed": false,
             "version": "SHARED"
-        },
-        {
-            "name": "ryty",
-            "trigger_identifiers": [
-                {
-                    "name": "server_port",
-                    "text": "Server Port"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "server_port",
-                    "text": "Server Port"
-                }
-            ],
-            "action": "input",
-            "dynamic_text_key": "test",
-            "skip_allowed": true,
-            "version": "v2"
         }
     ]
 }
