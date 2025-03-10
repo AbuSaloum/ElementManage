@@ -54,6 +54,247 @@
             "action": "click",
             "skip_allowed": false,
             "version": "SHARED"
+        },
+        {
+            "name": "server_port",
+            "trigger_identifiers": [
+                {
+                    "name": "server_port",
+                    "text": "Server Port"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "server_port",
+                    "text": "Server Port"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": false,
+            "version": "SHARED"
+        },
+        {
+            "name": "input_server_port",
+            "trigger_identifiers": [
+                {
+                    "name": "input_server_port",
+                    "resourceId": "android:id/edit"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "input_server_port",
+                    "resourceId": "android:id/edit"
+                }
+            ],
+            "action": "input",
+            "dynamic_text_key": "serverport",
+            "skip_allowed": false,
+            "version": "SHARED"
+        },
+        {
+            "name": "ok_server_port",
+            "trigger_identifiers": [
+                {
+                    "name": "ok_server_port",
+                    "resourceId": "android:id/button1"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "ok_server_port",
+                    "resourceId": "android:id/button1"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": false,
+            "version": "SHARED"
+        },
+        {
+            "name": "username_password_Auth",
+            "trigger_identifiers": [
+                {
+                    "name": "username_password_page",
+                    "text": "Username & Password Authentication"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "username_password_page",
+                    "text": "Username & Password Authentication"
+                }
+            ],
+            "action": "scroll_find_click",
+            "scroll_start_percentage": 0.4,
+            "scroll_end_percentage": 4.0,
+            "max_scroll_attempts": 5.0,
+            "scroll_sleep": 4.0,
+            "skip_allowed": false,
+            "version": "SHARED"
+        },
+        {
+            "name": "clicking_on_username",
+            "trigger_identifiers": [
+                {
+                    "name": "clicking_on_username",
+                    "text": "Username"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "clicking_on_username",
+                    "text": "Username"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": false,
+            "version": "SHARED"
+        },
+        {
+            "name": "adding_username",
+            "trigger_identifiers": [
+                {
+                    "name": "adding_username",
+                    "resourceId": "android:id/edit"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "adding_username",
+                    "resourceId": "android:id/edit"
+                }
+            ],
+            "action": "input",
+            "dynamic_text_key": "addingusername",
+            "skip_allowed": false,
+            "version": "SHARED"
+        },
+        {
+            "name": "clicking_ok_username",
+            "trigger_identifiers": [
+                {
+                    "name": "clicking_ok_",
+                    "resourceId": "android:id/button1"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "clicking_ok_",
+                    "resourceId": "android:id/button1"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": false,
+            "version": "SHARED"
+        },
+        {
+            "name": "clicking_on_password",
+            "trigger_identifiers": [
+                {
+                    "name": "clicking_on_password",
+                    "text": "Password"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "clicking_on_password",
+                    "text": "Password"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": false,
+            "version": "SHARED"
+        },
+        {
+            "name": "adding_password",
+            "trigger_identifiers": [
+                {
+                    "name": "adding_password",
+                    "resourceId": "android:id/edit"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "adding_password",
+                    "resourceId": "android:id/edit"
+                }
+            ],
+            "action": "input",
+            "dynamic_text_key": "addingpassword",
+            "skip_allowed": false,
+            "version": "SHARED"
+        },
+        {
+            "name": "clicking_ok_on_password",
+            "trigger_identifiers": [
+                {
+                    "name": "clicking_ok",
+                    "resourceId": "android:id/button1"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "clicking_ok",
+                    "resourceId": "android:id/button1"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": false,
+            "version": "SHARED"
+        },
+        {
+            "name": "clicking_ok_on_toggle",
+            "trigger_identifiers": [
+                {
+                    "name": "clicking_on_toggle ",
+                    "resourceId": "net.typeblog.socks:id/switch_action_button"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "clicking_on_toggle ",
+                    "resourceId": "net.typeblog.socks:id/switch_action_button"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": false,
+            "version": "SHARED"
+        },
+        {
+            "name": "clicking_ok",
+            "trigger_identifiers": [
+                {
+                    "name": "clicking_ok",
+                    "resourceId": "android:id/button1"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "clicking_ok",
+                    "resourceId": "android:id/button1"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": false,
+            "version": "SHARED"
+        },
+        {
+            "name": "wwww",
+            "trigger_identifiers": [
+                {
+                    "name": "ok_server_ip",
+                    "resourceId": "android:id/button1"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "ok_server_ip",
+                    "resourceId": "android:id/button1"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": true,
+            "version": "v1"
         }
     ]
 }
