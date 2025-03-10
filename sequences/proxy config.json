@@ -33,7 +33,7 @@
                 }
             ],
             "action": "input",
-            "dynamic_text_key": "serverip",
+            "dynamic_text_key": "proxy_ip",
             "skip_allowed": false,
             "version": "SHARED"
         },
@@ -88,7 +88,7 @@
                 }
             ],
             "action": "input",
-            "dynamic_text_key": "serverport",
+            "dynamic_text_key": "proxy_port",
             "skip_allowed": false,
             "version": "SHARED"
         },
@@ -165,7 +165,7 @@
                 }
             ],
             "action": "input",
-            "dynamic_text_key": "addingusername",
+            "dynamic_text_key": "proxy_username",
             "skip_allowed": false,
             "version": "SHARED"
         },
@@ -220,7 +220,7 @@
                 }
             ],
             "action": "input",
-            "dynamic_text_key": "addingpassword",
+            "dynamic_text_key": "proxy_password",
             "skip_allowed": false,
             "version": "SHARED"
         },
@@ -279,22 +279,23 @@
             "version": "SHARED"
         },
         {
-            "name": "wwww",
+            "name": "ryty",
             "trigger_identifiers": [
                 {
-                    "name": "ok_server_ip",
-                    "resourceId": "android:id/button1"
+                    "name": "server_port",
+                    "text": "Server Port"
                 }
             ],
             "action_identifiers": [
                 {
-                    "name": "ok_server_ip",
-                    "resourceId": "android:id/button1"
+                    "name": "server_port",
+                    "text": "Server Port"
                 }
             ],
-            "action": "click",
+            "action": "input",
+            "dynamic_text_key": "test2",
             "skip_allowed": true,
-            "version": "v1"
+            "version": "v2"
         }
     ]
 }
