@@ -1,0 +1,25 @@
+{
+    "sequence": [
+        {
+            "name": "test1",
+            "trigger_identifiers": [
+                {
+                    "name": "Identifier",
+                    "description": "test",
+                    "className": "text"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "Identifier",
+                    "description": "test",
+                    "className": "text"
+                }
+            ],
+            "action": "input",
+            "dynamic_text_key": "test",
+            "skip_allowed": true,
+            "version": "v2"
+        }
+    ]
+}
