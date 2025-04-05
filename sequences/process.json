@@ -46,7 +46,15 @@
     "unexpected_elements": [
         {
             "name": "Qq",
-            "action": "click"
+            "action": "click",
+            "identifiers": [
+                {
+                    "resourceId": "com.someapp:id/rating_dialog_layout"
+                },
+                {
+                    "text": "Rate Our App"
+                }
+            ]
         }
     ]
 }
