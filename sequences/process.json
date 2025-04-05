@@ -20,6 +20,27 @@
             "dynamic_text_key": "test",
             "skip_allowed": true,
             "version": "v22"
+        },
+        {
+            "name": "wwww",
+            "trigger_identifiers": [
+                {
+                    "name": "Identifier",
+                    "description": "test",
+                    "className": "text2"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "Identifier",
+                    "description": "test",
+                    "className": "text2"
+                }
+            ],
+            "action": "input",
+            "dynamic_text_key": "rfrefrf",
+            "skip_allowed": false,
+            "version": "rrr"
         }
     ]
 }
