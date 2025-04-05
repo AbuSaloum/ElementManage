@@ -46,7 +46,20 @@
     "unexpected_elements": [
         {
             "name": "eee",
-            "identifiers": [],
+            "trigger_identifiers": [
+                {
+                    "name": "Identifier",
+                    "description": "test",
+                    "className": "text2"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "Identifier",
+                    "description": "test",
+                    "className": "text2"
+                }
+            ],
             "action": "input"
         }
     ]
