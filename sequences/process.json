@@ -45,14 +45,14 @@
     ],
     "unexpected_elements": [
         {
-            "name": "Unexpected22",
+            "name": "ewew",
             "action": "input",
             "action_details": null,
             "text": null,
-            "dynamic_text_key": "Unexpected 22",
-            "skip_allowed": false,
+            "dynamic_text_key": "ewew",
+            "skip_allowed": true,
             "max_wait_time_seconds": null,
-            "version": "vv2",
+            "version": "ewew",
             "trigger_identifier_id": 1,
             "action_identifier_id": 1,
             "countdown_identifier_id": null,
