@@ -42,5 +42,11 @@
             "skip_allowed": false,
             "version": "rrr"
         }
+    ],
+    "unexpected_elements": [
+        {
+            "name": "www",
+            "action": "click"
+        }
     ]
 }
