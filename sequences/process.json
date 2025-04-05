@@ -42,5 +42,35 @@
             "skip_allowed": false,
             "version": "rrr"
         }
+    ],
+    "unexpected_elements": [
+        {
+            "name": "Unexpected ",
+            "action": "input",
+            "action_details": null,
+            "text": null,
+            "dynamic_text_key": "Unexpected ",
+            "skip_allowed": false,
+            "max_wait_time_seconds": null,
+            "version": "vv",
+            "trigger_identifier_id": 1,
+            "action_identifier_id": 1,
+            "countdown_identifier_id": null,
+            "application_id": 1,
+            "process_id": 1,
+            "screen_id": 1,
+            "state_code": null,
+            "status": null,
+            "reason": null,
+            "result_identifier_ids": [],
+            "operator": null,
+            "step_order": 0,
+            "timeout": null,
+            "disappear": null,
+            "scroll_start_percentage": null,
+            "scroll_end_percentage": null,
+            "max_scroll_attempts": null,
+            "scroll_sleep": null
+        }
     ]
 }
