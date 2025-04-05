@@ -1,7 +1,7 @@
 {
     "sequence": [
         {
-            "name": "test1",
+            "name": "test12",
             "trigger_identifiers": [
                 {
                     "name": "Identifier",
@@ -19,7 +19,7 @@
             "action": "input",
             "dynamic_text_key": "test",
             "skip_allowed": true,
-            "version": "v2"
+            "version": "v22"
         }
     ]
 }
