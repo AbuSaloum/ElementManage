@@ -31,6 +31,23 @@
                     "text": "Identifier2"
                 }
             ]
+        },
+        {
+            "name": "unexpected2A",
+            "action": "click",
+            "action_details": [
+                {
+                    "resourceId": "com.someapp:id/close_button"
+                }
+            ],
+            "identifiers": [
+                {
+                    "text": "Rate Our App"
+                },
+                {
+                    "resourceId": "com.someapp:id/rating_dialog_layout"
+                }
+            ]
         }
     ]
 }
