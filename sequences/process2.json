@@ -1,0 +1,22 @@
+{
+    "sequence": [
+        {
+            "name": "stepApp2",
+            "trigger_identifiers": [
+                {
+                    "name": "Identifier2",
+                    "text": "Identifier2"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "Identifier2",
+                    "text": "Identifier2"
+                }
+            ],
+            "action": "click",
+            "skip_allowed": true,
+            "version": "v2"
+        }
+    ]
+}
