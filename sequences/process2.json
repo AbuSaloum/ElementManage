@@ -50,7 +50,9 @@
             "name": "erer2",
             "action": "click",
             "action_details": [
-                {}
+                {
+                    "resourceId": "com.someapp:id/close_button22"
+                }
             ],
             "identifiers": [
                 {
