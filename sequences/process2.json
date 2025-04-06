@@ -21,12 +21,10 @@
     ],
     "unexpected_elements": [
         {
-            "name": "unexpected2A",
-            "action": "click",
+            "name": "testing",
+            "action": "abort",
             "action_details": [
-                {
-                    "resourceId": "com.someapp:id/close_button"
-                }
+                {}
             ],
             "identifiers": [
                 {
