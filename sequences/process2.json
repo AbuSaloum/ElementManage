@@ -45,6 +45,15 @@
                     "text": "Rate Our App"
                 }
             ]
+        },
+        {
+            "name": "erer",
+            "action": "abort",
+            "identifiers": [
+                {
+                    "text": "Identifier2"
+                }
+            ]
         }
     ]
 }
