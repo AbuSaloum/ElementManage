@@ -43,9 +43,6 @@
             "identifiers": [
                 {
                     "text": "Rate Our App"
-                },
-                {
-                    "resourceId": "com.someapp:id/rating_dialog_layout"
                 }
             ]
         }
