@@ -18,5 +18,16 @@
             "skip_allowed": true,
             "version": "v2"
         }
+    ],
+    "unexpected_elements": [
+        {
+            "name": "unexpected2",
+            "action": "abort",
+            "identifiers": [
+                {
+                    "text": "Identifier2"
+                }
+            ]
+        }
     ]
 }
