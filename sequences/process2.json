@@ -18,33 +18,5 @@
             "skip_allowed": true,
             "version": "v2"
         }
-    ],
-    "unexpected_elements": [
-        {
-            "name": "testing",
-            "action": "abort",
-            "action_details": [
-                {}
-            ],
-            "identifiers": [
-                {
-                    "text": "Identifier2"
-                }
-            ]
-        },
-        {
-            "name": "unexpected2A2",
-            "action": "click22",
-            "action_details": [
-                {
-                    "resourceId": "com.someapp:id/close_button22"
-                }
-            ],
-            "identifiers": [
-                {
-                    "text": "Rate Our App"
-                }
-            ]
-        }
     ]
 }
