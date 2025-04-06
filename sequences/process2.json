@@ -47,8 +47,11 @@
             ]
         },
         {
-            "name": "erer",
-            "action": "abort",
+            "name": "erer2",
+            "action": "click",
+            "action_details": [
+                {}
+            ],
             "identifiers": [
                 {
                     "text": "Identifier2"
