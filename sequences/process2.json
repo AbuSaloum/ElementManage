@@ -33,11 +33,11 @@
             ]
         },
         {
-            "name": "unexpected2A",
-            "action": "click",
+            "name": "unexpected2A2",
+            "action": "click22",
             "action_details": [
                 {
-                    "resourceId": "com.someapp:id/close_button"
+                    "resourceId": "com.someapp:id/close_button22"
                 }
             ],
             "identifiers": [
