@@ -1,0 +1,23 @@
+{
+    "sequence": [
+        {
+            "name": "testA",
+            "trigger_identifiers": [
+                {
+                    "name": "testAIdentifier",
+                    "resourceId": "rrr"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "testAIdentifier",
+                    "resourceId": "rrr"
+                }
+            ],
+            "action": "input",
+            "dynamic_text_key": "gg",
+            "skip_allowed": true,
+            "version": "v8"
+        }
+    ]
+}
