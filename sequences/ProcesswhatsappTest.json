@@ -37,6 +37,25 @@
             "dynamic_text_key": "v",
             "skip_allowed": true,
             "version": "v6"
+        },
+        {
+            "name": "sura",
+            "trigger_identifiers": [
+                {
+                    "name": "IdentifierwhatsappTest",
+                    "text": "text"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "IdentifierwhatsappTest",
+                    "text": "text"
+                }
+            ],
+            "action": "input",
+            "dynamic_text_key": "rrr",
+            "skip_allowed": true,
+            "version": "vr"
         }
     ]
 }
