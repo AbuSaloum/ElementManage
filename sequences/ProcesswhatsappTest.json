@@ -18,6 +18,25 @@
             "dynamic_text_key": "uu",
             "skip_allowed": true,
             "version": "v4"
+        },
+        {
+            "name": "wewe",
+            "trigger_identifiers": [
+                {
+                    "name": "IdentifierwhatsappTest",
+                    "text": "text"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "IdentifierwhatsappTest",
+                    "text": "text"
+                }
+            ],
+            "action": "input",
+            "dynamic_text_key": "v",
+            "skip_allowed": true,
+            "version": "v6"
         }
     ]
 }
