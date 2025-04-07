@@ -1,0 +1,23 @@
+{
+    "sequence": [
+        {
+            "name": "mar",
+            "trigger_identifiers": [
+                {
+                    "name": "WHIdentifier",
+                    "text": "ee"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "WHIdentifier",
+                    "text": "ee"
+                }
+            ],
+            "action": "input",
+            "dynamic_text_key": "ww",
+            "skip_allowed": true,
+            "version": "v2"
+        }
+    ]
+}
