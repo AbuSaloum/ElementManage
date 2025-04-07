@@ -1,0 +1,23 @@
+{
+    "sequence": [
+        {
+            "name": "test55",
+            "trigger_identifiers": [
+                {
+                    "name": "IdentifierwhatsappTest",
+                    "text": "text"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "IdentifierwhatsappTest",
+                    "text": "text"
+                }
+            ],
+            "action": "input",
+            "dynamic_text_key": "uu",
+            "skip_allowed": true,
+            "version": "v4"
+        }
+    ]
+}
