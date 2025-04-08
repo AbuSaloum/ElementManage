@@ -56,25 +56,6 @@
             "dynamic_text_key": "y",
             "skip_allowed": true,
             "version": "yy"
-        },
-        {
-            "name": "for4",
-            "trigger_identifiers": [
-                {
-                    "name": "IdentifierwhatsappTest",
-                    "text": "text"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "IdentifierwhatsappTest",
-                    "text": "text"
-                }
-            ],
-            "action": "input",
-            "dynamic_text_key": "y4",
-            "skip_allowed": true,
-            "version": "yy4"
         }
     ]
 }
