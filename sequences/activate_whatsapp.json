@@ -111,24 +111,6 @@
             "version": "SHARED"
         },
         {
-            "name": "number_incorrect",
-            "trigger_identifiers": [
-                {
-                    "name": "not_valid_num",
-                    "resourceId": "android:id/message"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "not_valid_num",
-                    "resourceId": "android:id/message"
-                }
-            ],
-            "action": "check",
-            "skip_allowed": false,
-            "version": "SHARED"
-        },
-        {
             "name": "click_yes",
             "trigger_identifiers": [
                 {
@@ -161,6 +143,24 @@
                 }
             ],
             "action": "find_and_click",
+            "skip_allowed": false,
+            "version": "SHARED"
+        },
+        {
+            "name": "number_incorrect",
+            "trigger_identifiers": [
+                {
+                    "name": "not_valid_num",
+                    "resourceId": "android:id/message"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "not_valid_num",
+                    "resourceId": "android:id/message"
+                }
+            ],
+            "action": "check",
             "skip_allowed": false,
             "version": "SHARED"
         },
