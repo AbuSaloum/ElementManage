@@ -96,13 +96,13 @@
             "name": "click_next",
             "trigger_identifiers": [
                 {
-                    "name": "next_button ",
+                    "name": "next_button",
                     "resourceId": "com.whatsapp:id/registration_submit"
                 }
             ],
             "action_identifiers": [
                 {
-                    "name": "next_button ",
+                    "name": "next_button",
                     "resourceId": "com.whatsapp:id/registration_submit"
                 }
             ],
