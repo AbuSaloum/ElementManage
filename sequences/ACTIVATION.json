@@ -39,7 +39,6 @@
                 }
             ],
             "action": "input",
-            "dynamic_text_key": "+",
             "skip_allowed": false,
             "version": "SHARED"
         }
