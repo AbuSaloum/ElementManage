@@ -1,0 +1,47 @@
+{
+    "sequence": [
+        {
+            "name": "Click_add",
+            "trigger_identifiers": [
+                {
+                    "name": "Start_MSG",
+                    "possible_texts": [
+                        "Start Messaging"
+                    ]
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "Start_MSG",
+                    "possible_texts": [
+                        "Start Messaging"
+                    ]
+                }
+            ],
+            "action": "click",
+            "skip_allowed": false,
+            "version": "SHARED"
+        },
+        {
+            "name": "add_number",
+            "trigger_identifiers": [
+                {
+                    "name": "Number_Added",
+                    "description": "number_added",
+                    "className": "android.widget.LinearLayout"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "Number_Added",
+                    "description": "number_added",
+                    "className": "android.widget.LinearLayout"
+                }
+            ],
+            "action": "input",
+            "dynamic_text_key": "+",
+            "skip_allowed": false,
+            "version": "SHARED"
+        }
+    ]
+}
