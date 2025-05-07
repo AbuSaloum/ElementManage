@@ -46,18 +46,14 @@
                 {
                     "name": "confirming_number",
                     "description": "confirming_number",
-                    "possible_texts": [
-                        "Yes"
-                    ]
+                    "text": "Yes"
                 }
             ],
             "action_identifiers": [
                 {
                     "name": "confirming_number",
                     "description": "confirming_number",
-                    "possible_texts": [
-                        "Yes"
-                    ]
+                    "text": "Yes"
                 }
             ],
             "action": "click",
