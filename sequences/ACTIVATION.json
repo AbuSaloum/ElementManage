@@ -41,6 +41,50 @@
             "action": "input",
             "skip_allowed": false,
             "version": "SHARED"
+        },
+        {
+            "name": "click_on_yes",
+            "trigger_identifiers": [
+                {
+                    "name": "confirming_number",
+                    "description": "confirming_number",
+                    "possible_texts": [
+                        "Yes"
+                    ]
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "confirming_number",
+                    "description": "confirming_number",
+                    "possible_texts": [
+                        "Yes"
+                    ]
+                }
+            ],
+            "action": "click",
+            "skip_allowed": false,
+            "version": "SHARED"
+        },
+        {
+            "name": "adding_OTP",
+            "trigger_identifiers": [
+                {
+                    "name": "Waiting_OTP",
+                    "description": "OTP",
+                    "className": "android.widget.LinearLayout"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "Waiting_OTP",
+                    "description": "OTP",
+                    "className": "android.widget.LinearLayout"
+                }
+            ],
+            "action": "input",
+            "skip_allowed": false,
+            "version": "SHARED"
         }
     ]
 }
