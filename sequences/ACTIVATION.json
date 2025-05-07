@@ -27,14 +27,12 @@
             "trigger_identifiers": [
                 {
                     "name": "Number_Added",
-                    "description": "number_added",
                     "className": "android.widget.LinearLayout"
                 }
             ],
             "action_identifiers": [
                 {
                     "name": "Number_Added",
-                    "description": "number_added",
                     "className": "android.widget.LinearLayout"
                 }
             ],
