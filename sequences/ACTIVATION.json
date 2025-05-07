@@ -85,6 +85,26 @@
             "action": "input",
             "skip_allowed": false,
             "version": "SHARED"
+        },
+        {
+            "name": "activated",
+            "trigger_identifiers": [
+                {
+                    "name": "Activated",
+                    "description": "Web tabs ",
+                    "className": "android.widget.FrameLayout"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "Activated",
+                    "description": "Web tabs ",
+                    "className": "android.widget.FrameLayout"
+                }
+            ],
+            "action": "check",
+            "skip_allowed": false,
+            "version": "SHARED"
         }
     ]
 }
