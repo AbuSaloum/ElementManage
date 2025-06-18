@@ -133,101 +133,19 @@
             "trigger_identifiers": [
                 {
                     "name": "moving_phone",
-                    "resourceId": "com.whatsapp:id/verify_sms_code_input"
+                    "resourceId": "com.whatsapp:id/verify_wa_old_content_subtitle"
                 }
             ],
             "action_identifiers": [
                 {
                     "name": "moving_phone",
-                    "resourceId": "com.whatsapp:id/verify_sms_code_input"
+                    "resourceId": "com.whatsapp:id/verify_wa_old_content_subtitle"
                 }
             ],
             "action": "input",
             "dynamic_text_key": "OTP",
             "skip_allowed": true,
             "version": "SHARED"
-        },
-        {
-            "name": "type_name",
-            "trigger_identifiers": [
-                {
-                    "name": "Adding _Name",
-                    "resourceId": "com.whatsapp:id/registration_name"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "Adding _Name",
-                    "resourceId": "com.whatsapp:id/registration_name"
-                }
-            ],
-            "action": "input",
-            "dynamic_text_key": "Adding_name",
-            "skip_allowed": true,
-            "version": "SHARED"
-        },
-        {
-            "name": "Click_on_next",
-            "trigger_identifiers": [
-                {
-                    "name": "click_on_next",
-                    "resourceId": "com.whatsapp:id/register_name_accept"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "click_on_next",
-                    "resourceId": "com.whatsapp:id/register_name_accept"
-                }
-            ],
-            "action": "click",
-            "skip_allowed": true,
-            "version": "SHARED"
-        },
-        {
-            "name": "skip_add_email",
-            "trigger_identifiers": [
-                {
-                    "name": "Skip_add_email",
-                    "resourceId": "com.whatsapp:id/secondary_button"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "Skip_add_email",
-                    "resourceId": "com.whatsapp:id/secondary_button"
-                }
-            ],
-            "action": "click",
-            "skip_allowed": true,
-            "version": "SHARED"
-        },
-        {
-            "name": "activated",
-            "trigger_identifiers": [
-                {
-                    "name": "Activated",
-                    "resourceId": "com.whatsapp:id/toolbar"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "Activated",
-                    "resourceId": "com.whatsapp:id/toolbar"
-                }
-            ],
-            "action": "check_and_wait",
-            "text": "ACTIVATED",
-            "dynamic_text_key": "ACTIVATED",
-            "skip_allowed": true,
-            "max_wait_time_seconds": 15,
-            "version": "SHARED",
-            "countdown_identifier": [
-                {
-                    "name": "Activated",
-                    "resourceId": "com.whatsapp:id/toolbar"
-                }
-            ]
         }
     ]
 }
