@@ -188,13 +188,13 @@
             "name": "skip_add_email",
             "trigger_identifiers": [
                 {
-                    "name": "to be deleted",
+                    "name": "Skip_add_email",
                     "resourceId": "com.whatsapp:id/secondary_button"
                 }
             ],
             "action_identifiers": [
                 {
-                    "name": "to be deleted",
+                    "name": "Skip_add_email",
                     "resourceId": "com.whatsapp:id/secondary_button"
                 }
             ],
