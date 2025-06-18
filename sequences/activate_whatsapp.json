@@ -129,35 +129,55 @@
             "version": "SHARED"
         },
         {
-            "name": "verify_another_way",
+            "name": "adding_OTP",
             "trigger_identifiers": [
                 {
-                    "name": "choose_method_screen",
-                    "resourceId": "com.whatsapp:id/make_and_manage_calls"
+                    "name": "moving_phone",
+                    "resourceId": "com.whatsapp:id/verify_sms_code_input"
                 }
             ],
             "action_identifiers": [
                 {
-                    "name": "verify_another_way_button",
-                    "text": "VERIFY ANOTHER WAY"
+                    "name": "moving_phone",
+                    "resourceId": "com.whatsapp:id/verify_sms_code_input"
                 }
             ],
-            "action": "find_and_click",
-            "skip_allowed": false,
+            "action": "input",
+            "dynamic_text_key": "OTP",
+            "skip_allowed": true,
             "version": "SHARED"
         },
         {
-            "name": "click_sms",
+            "name": "type_name",
             "trigger_identifiers": [
                 {
-                    "name": "choose_how_to_verify",
-                    "resourceId": "com.whatsapp:id/request_otp_code_bottom_sheet_title"
+                    "name": "Adding _Name",
+                    "resourceId": "com.whatsapp:id/registration_name"
                 }
             ],
             "action_identifiers": [
                 {
-                    "name": "SMS",
-                    "text": "Receive SMS"
+                    "name": "Adding _Name",
+                    "resourceId": "com.whatsapp:id/registration_name"
+                }
+            ],
+            "action": "input",
+            "dynamic_text_key": "Adding_name",
+            "skip_allowed": true,
+            "version": "SHARED"
+        },
+        {
+            "name": "Click_on_next",
+            "trigger_identifiers": [
+                {
+                    "name": "click_on_next",
+                    "resourceId": "com.whatsapp:id/register_name_accept"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "click_on_next",
+                    "resourceId": "com.whatsapp:id/register_name_accept"
                 }
             ],
             "action": "click",
@@ -165,17 +185,17 @@
             "version": "SHARED"
         },
         {
-            "name": "click_continue",
+            "name": "skip_add_email",
             "trigger_identifiers": [
                 {
-                    "name": "choose_how_to_verify",
-                    "resourceId": "com.whatsapp:id/request_otp_code_bottom_sheet_title"
+                    "name": "Skip_add_email",
+                    "resourceId": "com.whatsapp:id/secondary_button"
                 }
             ],
             "action_identifiers": [
                 {
-                    "name": "continue_button",
-                    "resourceId": "com.whatsapp:id/continue_button"
+                    "name": "Skip_add_email",
+                    "resourceId": "com.whatsapp:id/secondary_button"
                 }
             ],
             "action": "click",
@@ -183,42 +203,31 @@
             "version": "SHARED"
         },
         {
-            "name": "coudnt_send_sms",
-            "action": "result_check",
-            "skip_allowed": false,
+            "name": "activated",
+            "trigger_identifiers": [
+                {
+                    "name": "Activated",
+                    "resourceId": "com.whatsapp:id/toolbar"
+                }
+            ],
+            "action_identifiers": [
+                {
+                    "name": "Activated",
+                    "resourceId": "com.whatsapp:id/toolbar"
+                }
+            ],
+            "action": "check_and_wait",
+            "text": "ACTIVATED",
+            "dynamic_text_key": "ACTIVATED",
+            "skip_allowed": true,
+            "max_wait_time_seconds": 15,
             "version": "SHARED",
-            "state_code": "1COUDNT_SEND_SMS_FAILURE",
-            "status": "failure",
-            "reason": "Failed to send SMS after multiple attempts",
-            "conditions": [
+            "countdown_identifier": [
                 {
-                    "operator": "AND",
-                    "identifiers": [
-                        {
-                            "name": "we_coudnt_send_sms",
-                            "text": "We couldn't send an SMS to your number. Please check your number and try again in 1 hour."
-                        }
-                    ]
+                    "name": "Activated",
+                    "resourceId": "com.whatsapp:id/toolbar"
                 }
             ]
-        },
-        {
-            "name": "number_incorrect",
-            "trigger_identifiers": [
-                {
-                    "name": "not_valid_num",
-                    "resourceId": "android:id/message"
-                }
-            ],
-            "action_identifiers": [
-                {
-                    "name": "not_valid_num",
-                    "resourceId": "android:id/message"
-                }
-            ],
-            "action": "check",
-            "skip_allowed": false,
-            "version": "SHARED"
         }
     ]
 }
