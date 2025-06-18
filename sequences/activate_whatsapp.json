@@ -189,13 +189,13 @@
             "trigger_identifiers": [
                 {
                     "name": "to be deleted",
-                    "text": "ttttttt"
+                    "resourceId": "com.whatsapp:id/secondary_button"
                 }
             ],
             "action_identifiers": [
                 {
                     "name": "to be deleted",
-                    "text": "ttttttt"
+                    "resourceId": "com.whatsapp:id/secondary_button"
                 }
             ],
             "action": "click",
